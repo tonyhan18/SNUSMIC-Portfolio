@@ -2,6 +2,13 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  // The archive statically renders ~800 pages. Lower per-worker concurrency
+  // avoids 60-second page timeouts on constrained local/Vercel builders.
+  experimental: {
+    staticGenerationRetryCount: 3,
+    staticGenerationMaxConcurrency: 2,
+    staticGenerationMinPagesPerWorker: 100,
+  },
   turbopack: {
     root: process.cwd(),
   },

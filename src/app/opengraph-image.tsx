@@ -28,6 +28,7 @@ async function loadKoreanFont(text: string): Promise<ArrayBuffer | null> {
   try {
     const cssUrl = `https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@900&text=${encodeURIComponent(text)}`;
     const cssRes = await fetch(cssUrl, {
+      signal: AbortSignal.timeout(5_000),
       headers: {
         // TTF-serving UA — satori cannot parse woff2
         "User-Agent":
@@ -38,7 +39,7 @@ async function loadKoreanFont(text: string): Promise<ArrayBuffer | null> {
     const css = await cssRes.text();
     const match = css.match(/src:\s*url\((.+?)\)\s*format\(['"]?(?:opentype|truetype)['"]?\)/);
     if (!match) return null;
-    const fontRes = await fetch(match[1]);
+    const fontRes = await fetch(match[1], { signal: AbortSignal.timeout(5_000) });
     if (!fontRes.ok) return null;
     return await fontRes.arrayBuffer();
   } catch {

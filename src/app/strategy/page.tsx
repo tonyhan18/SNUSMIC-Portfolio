@@ -319,6 +319,19 @@ export default function StrategyPage() {
     <main className="mx-auto max-w-[1500px] space-y-8 px-4 py-6 sm:px-8">
       <SiteHeader eyebrow="Strategy Lab" />
 
+      <section className="rounded-lg border border-stamp/50 bg-stamp/5 p-4">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <p className="font-mono text-[10px] font-black uppercase tracking-[0.18em] text-stamp">New · US index research</p>
+            <h2 className="mt-1 font-display text-xl font-black tracking-tight">미국 지수 MTF 감쇠 분할매도 전략</h2>
+            <p className="mt-1 text-sm text-muted-foreground">QQQ·SOXX 장기 백테스트, 매수 후 보유 비교, Pine Script v6 원본을 별도 연구 페이지에 공개했습니다.</p>
+          </div>
+          <Link href="/strategy/us-index-mtf-decay" className="rounded-md bg-stamp px-4 py-2 font-mono text-xs font-black text-background">
+            전략·백테스트 보기 →
+          </Link>
+        </div>
+      </section>
+
       {/* ══════════════════════════════════════════════════════════════
           ① 오늘의 신호 — SOTA 전략의 임박 매매
       ══════════════════════════════════════════════════════════════ */}

@@ -1,0 +1,167 @@
+//@version=6
+strategy(
+     "US Index MTF Decay Scale-out / All-in Re-entry",
+     overlay = true,
+     initial_capital = 100000,
+     currency = currency.USD,
+     default_qty_type = strategy.percent_of_equity,
+     default_qty_value = 100,
+     pyramiding = 1,
+     commission_type = strategy.commission.percent,
+     commission_value = 0.01,
+     slippage = 2,
+     process_orders_on_close = false,
+     calc_on_every_tick = false,
+     calc_on_order_fills = false,
+     margin_long = 100,
+     margin_short = 100
+)
+
+// Reference strategy for standard 1D candles only.
+// Signals are produced on completed D / 2D / W bars and market orders fill
+// on the next available daily open. Apply to QQQ or SOXX for baseline parity.
+
+startDate = input.time(timestamp("2002-01-02T00:00:00"), "Backtest start")
+showSignals = input.bool(true, "Show stage markers")
+showFxWarning = input.bool(true, "Show USD/KRW weekly warning")
+fxSymbol = input.symbol("FX_IDC:USDKRW", "USD/KRW symbol")
+reentryCashBufferPct = input.float(0.5, "Re-entry cash buffer (%)", minval = 0.0, maxval = 5.0, step = 0.1,
+     tooltip = "Next-open gaps are unknowable at the signal close. A small buffer reduces rejected/leveraged re-entry orders in the broker emulator.")
+
+if not (timeframe.isdaily and timeframe.multiplier == 1)
+    runtime.error("Run this strategy on a standard 1D chart.")
+
+// Daily signals are calculated directly on the 1D chart.
+dSma5 = ta.sma(close, 5)
+dSma20 = ta.sma(close, 20)
+dCloseUnder = close < dSma20
+dCrossDown = ta.crossunder(dSma5, dSma20)
+dCrossUp = ta.crossover(dSma5, dSma20)
+
+// Canonical non-repainting HTF request: offset every expression by one source
+// bar and pair it with lookahead_on. The completed 2D/W bar becomes actionable
+// on the first daily bar of the next source period; the order fills one daily
+// open later. This is conservative but identical on historical and live bars.
+[twoClose, twoSma5, twoSma20, twoCloseUnder, twoCrossDown, twoCrossUp] = request.security(
+     syminfo.tickerid,
+     "2D",
+     [close[1], ta.sma(close, 5)[1], ta.sma(close, 20)[1], close[1] < ta.sma(close, 20)[1],
+      ta.sma(close, 5)[1] < ta.sma(close, 20)[1] and ta.sma(close, 5)[2] >= ta.sma(close, 20)[2],
+      close[1] > ta.sma(close, 20)[1] and close[2] <= ta.sma(close, 20)[2]],
+     gaps = barmerge.gaps_on,
+     lookahead = barmerge.lookahead_on
+)
+
+[wClose, wSma5, wSma20, wCloseUnder, wCrossDown, wCrossUp] = request.security(
+     syminfo.tickerid,
+     "W",
+     [close[1], ta.sma(close, 5)[1], ta.sma(close, 20)[1], close[1] < ta.sma(close, 20)[1],
+      ta.sma(close, 5)[1] < ta.sma(close, 20)[1] and ta.sma(close, 5)[2] >= ta.sma(close, 20)[2],
+      close[1] > ta.sma(close, 20)[1] and close[2] <= ta.sma(close, 20)[2]],
+     gaps = barmerge.gaps_on,
+     lookahead = barmerge.lookahead_on
+)
+
+newTwoDay = not na(twoClose)
+newWeek = not na(wClose)
+var bool weeklyAlive = false
+if newWeek and not na(wSma20)
+    weeklyAlive := wClose >= wSma20
+
+// Optional FX warning. It does not alter the baseline state machine because
+// KRW-composite trading and ETF hedged/unhedged switching require separate
+// instruments and tax/account assumptions.
+[fxWClose, fxWMa20] = request.security(
+     fxSymbol, "W", [close[1], ta.sma(close, 20)[1]],
+     gaps = barmerge.gaps_off, lookahead = barmerge.lookahead_on
+)
+fxRisk = fxWClose < fxWMa20
+bgcolor(showFxWarning and fxRisk ? color.new(color.orange, 88) : na, title = "KRW strength / USDKRW below W20")
+
+var int stage = 0
+var int pendingStage = 0        // 1..6 exit, -1 re-entry, 0 none
+var float positionBeforeOrder = na
+var bool initialOrderSent = false
+
+// Initial full-capital entry; default_qty_value=100.
+if barstate.isconfirmed and time >= startDate and not initialOrderSent
+    strategy.entry("CORE", strategy.long, alert_message = "INITIAL_BUY")
+    initialOrderSent := true
+
+// Commit state only after the next-open order actually changes position.
+qtyTolerance = 0.000001
+if pendingStage > 0 and strategy.position_size < positionBeforeOrder - qtyTolerance
+    stage := pendingStage
+    pendingStage := 0
+    positionBeforeOrder := na
+else if pendingStage == -1 and strategy.position_size > positionBeforeOrder + qtyTolerance
+    stage := 0
+    pendingStage := 0
+    positionBeforeOrder := na
+
+bool exitSignal = false
+int nextStage = stage + 1
+if stage == 0
+    exitSignal := dCloseUnder
+else if stage == 1
+    exitSignal := dCrossDown
+else if stage == 2
+    exitSignal := newTwoDay and twoCloseUnder
+else if stage == 3
+    exitSignal := newTwoDay and twoCrossDown
+else if stage == 4
+    exitSignal := newWeek and wCloseUnder
+else if stage == 5
+    exitSignal := newWeek and wCrossDown
+
+bool reentrySignal = false
+if stage == 1 or stage == 2
+    reentrySignal := weeklyAlive and dCrossUp
+else if stage == 3 or stage == 4
+    reentrySignal := newTwoDay and twoCrossUp
+else if stage == 5 or stage == 6
+    reentrySignal := newWeek and wCrossUp
+
+bool issuedExit = false
+bool issuedReentry = false
+
+// Exit has priority when contradictory conditions occur on the same close.
+if barstate.isconfirmed and initialOrderSent and strategy.position_size > 0 and pendingStage == 0
+    if exitSignal and nextStage <= 6
+        float fraction = nextStage <= 4 ? 0.20 : 0.50
+        float exitQty = math.abs(strategy.position_size) * fraction
+        if exitQty > qtyTolerance
+            strategy.order(
+                 "EXIT_" + str.tostring(nextStage),
+                 strategy.short,
+                 qty = exitQty,
+                 alert_message = "EXIT_" + str.tostring(nextStage)
+            )
+            positionBeforeOrder := strategy.position_size
+            pendingStage := nextStage
+            issuedExit := true
+    else if reentrySignal
+        float estimatedCash = math.max(strategy.equity - strategy.position_size * close, 0.0)
+        float reentryQty = estimatedCash * (1.0 - reentryCashBufferPct / 100.0) / close
+        if reentryQty > qtyTolerance
+            strategy.order("REENTER", strategy.long, qty = reentryQty, alert_message = "REENTER_ALL_CASH")
+            positionBeforeOrder := strategy.position_size
+            pendingStage := -1
+            issuedReentry := true
+
+plot(dSma20, "D SMA20", color = color.new(color.blue, 0), linewidth = 2)
+plot(dSma5, "D SMA5", color = color.new(color.teal, 20))
+plot(wSma20, "W SMA20 (confirmed)", color = color.new(color.purple, 0), linewidth = 2, style = plot.style_stepline)
+
+plotshape(showSignals and issuedExit, title = "Scale-out", text = "EXIT",
+     style = shape.labeldown, location = location.abovebar, color = color.new(color.red, 0), textcolor = color.white, size = size.tiny)
+plotshape(showSignals and issuedReentry, title = "All-in re-entry", text = "RE",
+     style = shape.labelup, location = location.belowbar, color = color.new(color.green, 0), textcolor = color.white, size = size.tiny)
+
+alertcondition(issuedExit, "MTF scale-out", "MTF decay scale-out order submitted")
+alertcondition(issuedReentry, "MTF all-in re-entry", "MTF all-in re-entry order submitted")
+
+// Data-window diagnostics.
+plot(stage, "Committed stage", display = display.data_window)
+plot(strategy.position_size, "Position units", display = display.data_window)
+plot(fxRisk ? 1 : 0, "FX warning", display = display.data_window)
