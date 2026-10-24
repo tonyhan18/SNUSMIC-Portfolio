@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T19:12:12+00:00",
+  "generated_at": "2026-10-24T08:56:52+00:00",
   "strategy_key": "U_chandelier_scaleout",
   "ticker": "207940",
   "market": "KR",
@@ -10,25 +10,25 @@
     {
       "date": "2021-08-18",
       "side": "buy",
-      "price": 1479245.0,
+      "price": 1467858.0,
       "reason": "학회 매수리포트 발간 → 익일 시가 진입 (KOSPI 파킹 매도 후 전환, 과열 스케일아웃 규칙) (트리거: voera 2021-08-17)"
     },
     {
       "date": "2021-09-29",
       "side": "stop",
-      "price": 1242159.0,
+      "price": 1232597.0,
       "reason": "u_chandelier_ATR4.25 (-16.6%)"
     },
     {
       "date": "2023-08-21",
       "side": "buy",
-      "price": 1134714.0,
+      "price": 1125979.0,
       "reason": "학회 매수리포트 발간 → 익일 시가 진입 (KOSPI 파킹 매도 후 전환, 과열 스케일아웃 규칙) (트리거: star 2023-08-20, voera 2021-08-17)"
     },
     {
       "date": "2023-09-22",
       "side": "stop",
-      "price": 1037579.0,
+      "price": 1029592.0,
       "reason": "u_chandelier_ATR4.25 (-9.2%)"
     }
   ],

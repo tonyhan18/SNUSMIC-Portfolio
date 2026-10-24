@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T19:12:12+00:00",
+  "generated_at": "2026-10-24T08:56:52+00:00",
   "strategy_key": "U_chandelier_scaleout",
   "ticker": "196170",
   "market": "KR",
@@ -10,13 +10,13 @@
     {
       "date": "2024-08-16",
       "side": "buy",
-      "price": 294000.0,
+      "price": 226219.0,
       "reason": "학회 매수리포트 발간 → 익일 시가 진입 (KOSPI 파킹 매도 후 전환, 과열 스케일아웃 규칙) (트리거: kuvic 2024-08-15, smic 2024-05-09)"
     },
     {
       "date": "2024-11-21",
       "side": "stop",
-      "price": 344000.0,
+      "price": 264691.0,
       "reason": "u_chandelier_ATR4.25 (+16.2%)"
     }
   ],

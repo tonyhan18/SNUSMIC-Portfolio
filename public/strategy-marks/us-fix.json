@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T19:12:12+00:00",
+  "generated_at": "2026-10-24T08:56:52+00:00",
   "strategy_key": "U_chandelier_scaleout",
   "ticker": "FIX",
   "market": "US",
@@ -10,13 +10,13 @@
     {
       "date": "2026-06-01",
       "side": "buy",
-      "price": 1765.75,
+      "price": 1764.836,
       "reason": "학회 매수리포트 발간 → 익일 시가 진입 (KOSPI 파킹 매도 후 전환, 과열 스케일아웃 규칙) (트리거: smic 2026-05-29)"
     },
     {
       "date": "2026-07-29",
       "side": "stop",
-      "price": 1608.0,
+      "price": 1607.1677,
       "reason": "u_chandelier_ATR4.25 (-12.8%)"
     }
   ],

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T19:12:11+00:00",
+  "generated_at": "2026-10-24T08:56:52+00:00",
   "strategy_key": "A_12mo",
   "disclaimer": "These are backtested signals for research purposes only. They do NOT constitute investment advice. Past performance does not guarantee future results. All trading decisions and their consequences are solely your responsibility.",
   "disclaimer_ko": "이 데이터는 백테스트 시뮬레이션 결과이며 연구 목적으로만 제공됩니다. 투자 권유가 아닙니다. 과거 성과가 미래 수익을 보장하지 않습니다. 실매매로 인한 모든 손익의 책임은 전적으로 사용자에게 있습니다.",
@@ -1000,8 +1000,8 @@
       "name": "효성화학",
       "entry_date": "2022-02-14",
       "exit_date": "2023-02-14",
-      "entry_price": 283500.0,
-      "exit_price": 112900.0,
+      "entry_price": 567000.0,
+      "exit_price": 225800.0,
       "return_pct": -60.41,
       "days": 365,
       "exit_reason": "12개월_만기",
@@ -1011,8 +1011,8 @@
           "school": "ewha",
           "report_date": "2022-02-12",
           "source_file": "2022-02-12_[220212] 효성화학(298000).md",
-          "target_price": 408000.0,
-          "stated_upside_pct": 40.9326
+          "target_price": null,
+          "stated_upside_pct": null
         }
       ]
     },
@@ -1775,8 +1775,8 @@
       "name": "티앤엘",
       "entry_date": "2023-04-24",
       "exit_date": "2024-04-24",
-      "entry_price": 45650.0,
-      "exit_price": 58800.0,
+      "entry_price": 23103.0,
+      "exit_price": 29758.0,
       "return_pct": 28.03,
       "days": 366,
       "exit_reason": "12개월_만기",
@@ -1787,7 +1787,7 @@
           "report_date": "2023-04-22",
           "source_file": "2023-04-22_STAR_티앤엘.md",
           "target_price": 63300.0,
-          "stated_upside_pct": 38.6637
+          "stated_upside_pct": 173.9904
         }
       ]
     },

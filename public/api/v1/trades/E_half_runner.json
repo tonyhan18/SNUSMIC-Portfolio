@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T19:12:11+00:00",
+  "generated_at": "2026-10-24T08:56:52+00:00",
   "strategy_key": "E_half_runner",
   "disclaimer": "These are backtested signals for research purposes only. They do NOT constitute investment advice. Past performance does not guarantee future results. All trading decisions and their consequences are solely your responsibility.",
   "disclaimer_ko": "이 데이터는 백테스트 시뮬레이션 결과이며 연구 목적으로만 제공됩니다. 투자 권유가 아닙니다. 과거 성과가 미래 수익을 보장하지 않습니다. 실매매로 인한 모든 손익의 책임은 전적으로 사용자에게 있습니다.",
@@ -1828,8 +1828,8 @@
       "name": "아이씨에이치",
       "entry_date": "2022-10-14",
       "exit_date": "2023-04-03",
-      "entry_price": 8306.0,
-      "exit_price": 6177.0,
+      "entry_price": 41530.0,
+      "exit_price": 30885.0,
       "return_pct": 47.84,
       "days": 171,
       "exit_reason": "runner_thesis_break_200MA",
@@ -1839,8 +1839,8 @@
           "school": "smic",
           "report_date": "2022-10-13",
           "source_file": "2022-10-13_equity-research-아이씨에이치.md",
-          "target_price": 31100.0,
-          "stated_upside_pct": 282.017
+          "target_price": null,
+          "stated_upside_pct": null
         }
       ]
     },
@@ -2054,9 +2054,9 @@
       "name": "티앤엘",
       "entry_date": "2023-05-04",
       "exit_date": "2023-10-04",
-      "entry_price": 47700.0,
-      "exit_price": 42350.0,
-      "return_pct": 76.5,
+      "entry_price": 24140.0,
+      "exit_price": 21433.0,
+      "return_pct": 76.51,
       "days": 153,
       "exit_reason": "runner_thesis_break_200MA",
       "entry_reason": "학회 매수리포트 발간 → 익일 시가 진입 (트리거: voera 2023-05-03, star 2023-04-22)",
@@ -2066,14 +2066,14 @@
           "report_date": "2023-04-22",
           "source_file": "2023-04-22_STAR_티앤엘.md",
           "target_price": 63300.0,
-          "stated_upside_pct": 38.6637
+          "stated_upside_pct": 173.9904
         },
         {
           "school": "voera",
           "report_date": "2023-05-03",
           "source_file": "undated_[BUY].md",
-          "target_price": 105000.0,
-          "stated_upside_pct": 118.75
+          "target_price": null,
+          "stated_upside_pct": null
         }
       ]
     },
@@ -2497,11 +2497,11 @@
       "market": "KR",
       "name": "알테오젠",
       "entry_date": "2024-08-16",
-      "exit_date": "2024-08-16",
-      "entry_price": 294000.0,
+      "exit_date": "2024-08-23",
+      "entry_price": 226219.0,
       "exit_price": 242200.0,
-      "return_pct": -18.11,
-      "days": 0,
+      "return_pct": 6.42,
+      "days": 7,
       "exit_reason": "목표가_절반익절",
       "entry_reason": "학회 매수리포트 발간 → 익일 시가 진입 (트리거: kuvic 2024-08-15, smic 2024-05-09)",
       "trigger_reports": [
@@ -2510,7 +2510,7 @@
           "report_date": "2024-05-09",
           "source_file": "2024-05-09_equity-research-알테오젠.md",
           "target_price": 242200.0,
-          "stated_upside_pct": 42.5544
+          "stated_upside_pct": 85.2688
         },
         {
           "school": "kuvic",
@@ -2569,28 +2569,6 @@
           "source_file": "2024-05-07_STAR_세방전지.md",
           "target_price": 106000.0,
           "stated_upside_pct": 0.0944
-        }
-      ]
-    },
-    {
-      "ticker": "012510",
-      "market": "KR",
-      "name": "더존비즈온",
-      "entry_date": "2024-08-19",
-      "exit_date": "2024-10-02",
-      "entry_price": 57300.0,
-      "exit_price": 51600.0,
-      "return_pct": 79.03,
-      "days": 44,
-      "exit_reason": "runner_thesis_break_200MA",
-      "entry_reason": "학회 매수리포트 발간 → 익일 시가 진입 (트리거: kuvic 2024-08-16)",
-      "trigger_reports": [
-        {
-          "school": "kuvic",
-          "report_date": "2024-08-16",
-          "source_file": "2024-08-16_더존비즈온 - 이제는 DOU이상 ZONE버할 필요 없다.md",
-          "target_price": 75900.0,
-          "stated_upside_pct": 32.23
         }
       ]
     },
@@ -2710,13 +2688,42 @@
       ]
     },
     {
+      "ticker": "178320",
+      "market": "KR",
+      "name": "서진시스템",
+      "entry_date": "2024-08-26",
+      "exit_date": "2024-12-02",
+      "entry_price": 27150.0,
+      "exit_price": 25600.0,
+      "return_pct": 87.45,
+      "days": 98,
+      "exit_reason": "runner_thesis_break_200MA",
+      "entry_reason": "학회 매수리포트 발간 → 익일 시가 진입 (트리거: ewha 2024-08-23, kuvic 2024-05-18)",
+      "trigger_reports": [
+        {
+          "school": "kuvic",
+          "report_date": "2024-05-18",
+          "source_file": "2024-05-18_서진시스템 - 서(희)진씨 ESS 밟으실 수 있쬬.md",
+          "target_price": 43600.0,
+          "stated_upside_pct": 73.0159
+        },
+        {
+          "school": "ewha",
+          "report_date": "2024-08-23",
+          "source_file": "2024-08-23_[240823] 서진시스템(178320).md",
+          "target_price": 38100.0,
+          "stated_upside_pct": 43.7736
+        }
+      ]
+    },
+    {
       "ticker": "196170",
       "market": "KR",
       "name": "알테오젠",
       "entry_date": "2024-08-16",
       "exit_date": "2024-12-02",
-      "entry_price": 294000.0,
-      "exit_price": 283500.0,
+      "entry_price": 226219.0,
+      "exit_price": 218139.0,
       "return_pct": -4.15,
       "days": 108,
       "exit_reason": "runner_thesis_break_200MA",
@@ -2727,7 +2734,7 @@
           "report_date": "2024-05-09",
           "source_file": "2024-05-09_equity-research-알테오젠.md",
           "target_price": 242200.0,
-          "stated_upside_pct": 42.5544
+          "stated_upside_pct": 85.2688
         },
         {
           "school": "kuvic",
@@ -2895,42 +2902,6 @@
           "source_file": "2024-03-11_STAR_한국항공우주.md",
           "target_price": 71500.0,
           "stated_upside_pct": 34.1463
-        }
-      ]
-    },
-    {
-      "ticker": "145020",
-      "market": "KR",
-      "name": "휴젤",
-      "entry_date": "2024-10-07",
-      "exit_date": "2025-02-03",
-      "entry_price": 259000.0,
-      "exit_price": 232000.0,
-      "return_pct": 78.08,
-      "days": 119,
-      "exit_reason": "runner_thesis_break_200MA",
-      "entry_reason": "학회 매수리포트 발간 → 익일 시가 진입 (트리거: yig 2024-10-04, star 2023-03-01, voera 2023-01-02)",
-      "trigger_reports": [
-        {
-          "school": "voera",
-          "report_date": "2023-01-02",
-          "source_file": "undated_[BUY] 휴~휴~ 불면은 수출길 뚫리는 휴젤.md",
-          "target_price": 387000.0,
-          "stated_upside_pct": 187.9464
-        },
-        {
-          "school": "star",
-          "report_date": "2023-03-01",
-          "source_file": "2023-03-01_STAR_휴젤.md",
-          "target_price": 188300.0,
-          "stated_upside_pct": 45.8559
-        },
-        {
-          "school": "yig",
-          "report_date": "2024-10-04",
-          "source_file": "2025-11-10_휴젤 (145020, KQ), 휴~젤 좋다! (발간일 241004) YIG Research.md",
-          "target_price": 318000.0,
-          "stated_upside_pct": 23.7354
         }
       ]
     },

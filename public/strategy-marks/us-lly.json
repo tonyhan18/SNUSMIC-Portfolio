@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T19:12:12+00:00",
+  "generated_at": "2026-10-24T08:56:52+00:00",
   "strategy_key": "U_chandelier_scaleout",
   "ticker": "LLY",
   "market": "US",
@@ -10,13 +10,13 @@
     {
       "date": "2024-09-30",
       "side": "buy",
-      "price": 853.8034,
+      "price": 852.5816,
       "reason": "학회 매수리포트 발간 → 익일 시가 진입 (KOSPI 파킹 매도 후 전환, 과열 스케일아웃 규칙) (트리거: yig 2024-09-28, smic 2023-11-22)"
     },
     {
       "date": "2024-10-31",
       "side": "stop",
-      "price": 826.1406,
+      "price": 824.9585,
       "reason": "u_chandelier_ATR4.25 (+1.2%)"
     }
   ],

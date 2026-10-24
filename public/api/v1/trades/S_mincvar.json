@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T19:12:12+00:00",
+  "generated_at": "2026-10-24T08:56:52+00:00",
   "strategy_key": "S_mincvar",
   "disclaimer": "These are backtested signals for research purposes only. They do NOT constitute investment advice. Past performance does not guarantee future results. All trading decisions and their consequences are solely your responsibility.",
   "disclaimer_ko": "이 데이터는 백테스트 시뮬레이션 결과이며 연구 목적으로만 제공됩니다. 투자 권유가 아닙니다. 과거 성과가 미래 수익을 보장하지 않습니다. 실매매로 인한 모든 손익의 책임은 전적으로 사용자에게 있습니다.",
@@ -143,8 +143,8 @@
       "name": "EQIX",
       "entry_date": "2020-02-03",
       "exit_date": "2020-03-02",
-      "entry_price": 524.6169,
-      "exit_price": 513.739,
+      "entry_price": 522.122,
+      "exit_price": 511.2959,
       "return_pct": -2.23,
       "days": 28,
       "exit_reason": "s_rebalance_trim",
@@ -155,7 +155,7 @@
           "report_date": "2019-12-24",
           "source_file": "2019-12-24_Equity Research, Equinix.md",
           "target_price": 618.28,
-          "stated_upside_pct": 21.8257
+          "stated_upside_pct": 22.4078
         }
       ]
     },
@@ -275,8 +275,8 @@
       "name": "EQIX",
       "entry_date": "2020-02-03",
       "exit_date": "2020-04-01",
-      "entry_price": 524.6169,
-      "exit_price": 540.6759,
+      "entry_price": 522.122,
+      "exit_price": 538.1046,
       "return_pct": 4.31,
       "days": 58,
       "exit_reason": "s_rebalance_trim",
@@ -287,7 +287,7 @@
           "report_date": "2019-12-24",
           "source_file": "2019-12-24_Equity Research, Equinix.md",
           "target_price": 618.28,
-          "stated_upside_pct": 21.8257
+          "stated_upside_pct": 22.4078
         }
       ]
     },
@@ -495,8 +495,8 @@
       "name": "EQIX",
       "entry_date": "2020-02-03",
       "exit_date": "2020-06-01",
-      "entry_price": 524.6169,
-      "exit_price": 624.6977,
+      "entry_price": 522.122,
+      "exit_price": 621.7268,
       "return_pct": 8.41,
       "days": 119,
       "exit_reason": "s_rebalance_trim",
@@ -507,7 +507,7 @@
           "report_date": "2019-12-24",
           "source_file": "2019-12-24_Equity Research, Equinix.md",
           "target_price": 618.28,
-          "stated_upside_pct": 21.8257
+          "stated_upside_pct": 22.4078
         }
       ]
     },
@@ -825,8 +825,8 @@
       "name": "EQIX",
       "entry_date": "2020-02-03",
       "exit_date": "2020-08-03",
-      "entry_price": 524.6169,
-      "exit_price": 693.2216,
+      "entry_price": 522.122,
+      "exit_price": 689.9251,
       "return_pct": 12.52,
       "days": 182,
       "exit_reason": "s_rebalance_trim",
@@ -837,7 +837,7 @@
           "report_date": "2019-12-24",
           "source_file": "2019-12-24_Equity Research, Equinix.md",
           "target_price": 618.28,
-          "stated_upside_pct": 21.8257
+          "stated_upside_pct": 22.4078
         }
       ]
     },
@@ -1331,8 +1331,8 @@
       "name": "EQIX",
       "entry_date": "2020-02-03",
       "exit_date": "2020-11-02",
-      "entry_price": 524.6169,
-      "exit_price": 663.0247,
+      "entry_price": 522.122,
+      "exit_price": 659.8716,
       "return_pct": -1.67,
       "days": 273,
       "exit_reason": "s_rebalance_trim",
@@ -1343,7 +1343,7 @@
           "report_date": "2019-12-24",
           "source_file": "2019-12-24_Equity Research, Equinix.md",
           "target_price": 618.28,
-          "stated_upside_pct": 21.8257
+          "stated_upside_pct": 22.4078
         }
       ]
     },
@@ -1353,8 +1353,8 @@
       "name": "PYPL",
       "entry_date": "2020-09-01",
       "exit_date": "2020-11-02",
-      "entry_price": 203.8248,
-      "exit_price": 187.3871,
+      "entry_price": 203.3226,
+      "exit_price": 186.9254,
       "return_pct": -9.98,
       "days": 62,
       "exit_reason": "s_rebalance_trim",
@@ -1365,7 +1365,7 @@
           "report_date": "2020-06-09",
           "source_file": "2020-06-09_Equity Research, PayPal Holdings, Inc.md",
           "target_price": 193.09,
-          "stated_upside_pct": 24.1631
+          "stated_upside_pct": 24.4698
         }
       ]
     },
@@ -1419,8 +1419,8 @@
       "name": "PYPL",
       "entry_date": "2020-09-01",
       "exit_date": "2020-12-01",
-      "entry_price": 203.8248,
-      "exit_price": 215.2855,
+      "entry_price": 203.3226,
+      "exit_price": 214.7551,
       "return_pct": 0.95,
       "days": 91,
       "exit_reason": "s_rebalance_exit",
@@ -1431,7 +1431,7 @@
           "report_date": "2020-06-09",
           "source_file": "2020-06-09_Equity Research, PayPal Holdings, Inc.md",
           "target_price": 193.09,
-          "stated_upside_pct": 24.1631
+          "stated_upside_pct": 24.4698
         }
       ]
     },
@@ -1485,8 +1485,8 @@
       "name": "EQIX",
       "entry_date": "2020-02-03",
       "exit_date": "2020-12-01",
-      "entry_price": 524.6169,
-      "exit_price": 635.1136,
+      "entry_price": 522.122,
+      "exit_price": 632.0934,
       "return_pct": -8.06,
       "days": 302,
       "exit_reason": "s_rebalance_trim",
@@ -1497,7 +1497,7 @@
           "report_date": "2019-12-24",
           "source_file": "2019-12-24_Equity Research, Equinix.md",
           "target_price": 618.28,
-          "stated_upside_pct": 21.8257
+          "stated_upside_pct": 22.4078
         }
       ]
     },
@@ -1727,8 +1727,8 @@
       "name": "PYPL",
       "entry_date": "2021-01-04",
       "exit_date": "2021-02-01",
-      "entry_price": 235.7582,
-      "exit_price": 236.3233,
+      "entry_price": 235.1774,
+      "exit_price": 235.741,
       "return_pct": 2.64,
       "days": 28,
       "exit_reason": "s_rebalance_exit",
@@ -1739,7 +1739,7 @@
           "report_date": "2020-06-09",
           "source_file": "2020-06-09_Equity Research, PayPal Holdings, Inc.md",
           "target_price": 193.09,
-          "stated_upside_pct": 24.1631
+          "stated_upside_pct": 24.4698
         }
       ]
     },
@@ -1749,8 +1749,8 @@
       "name": "EQIX",
       "entry_date": "2020-02-03",
       "exit_date": "2021-02-01",
-      "entry_price": 524.6169,
-      "exit_price": 663.3102,
+      "entry_price": 522.122,
+      "exit_price": 660.1559,
       "return_pct": 4.39,
       "days": 364,
       "exit_reason": "s_rebalance_trim",
@@ -1761,7 +1761,7 @@
           "report_date": "2019-12-24",
           "source_file": "2019-12-24_Equity Research, Equinix.md",
           "target_price": 618.28,
-          "stated_upside_pct": 21.8257
+          "stated_upside_pct": 22.4078
         }
       ]
     },
@@ -1815,8 +1815,8 @@
       "name": "EQIX",
       "entry_date": "2020-02-03",
       "exit_date": "2021-03-01",
-      "entry_price": 524.6169,
-      "exit_price": 586.1575,
+      "entry_price": 522.122,
+      "exit_price": 583.3702,
       "return_pct": -7.26,
       "days": 392,
       "exit_reason": "s_rebalance_exit",
@@ -1827,7 +1827,7 @@
           "report_date": "2019-12-24",
           "source_file": "2019-12-24_Equity Research, Equinix.md",
           "target_price": 618.28,
-          "stated_upside_pct": 21.8257
+          "stated_upside_pct": 22.4078
         }
       ]
     },
@@ -1925,8 +1925,8 @@
       "name": "PYPL",
       "entry_date": "2021-03-01",
       "exit_date": "2021-04-01",
-      "entry_price": 266.5862,
-      "exit_price": 245.9103,
+      "entry_price": 265.9294,
+      "exit_price": 245.3044,
       "return_pct": -8.0,
       "days": 31,
       "exit_reason": "s_rebalance_exit",
@@ -1937,7 +1937,7 @@
           "report_date": "2020-06-09",
           "source_file": "2020-06-09_Equity Research, PayPal Holdings, Inc.md",
           "target_price": 193.09,
-          "stated_upside_pct": 24.1631
+          "stated_upside_pct": 24.4698
         }
       ]
     },
@@ -2306,8 +2306,8 @@
       "name": "EQIX",
       "entry_date": "2021-04-01",
       "exit_date": "2021-05-03",
-      "entry_price": 618.9987,
-      "exit_price": 650.6664,
+      "entry_price": 616.0551,
+      "exit_price": 647.5722,
       "return_pct": 3.52,
       "days": 32,
       "exit_reason": "s_rebalance_trim",
@@ -2318,7 +2318,7 @@
           "report_date": "2019-12-24",
           "source_file": "2019-12-24_Equity Research, Equinix.md",
           "target_price": 618.28,
-          "stated_upside_pct": 21.8257
+          "stated_upside_pct": 22.4078
         }
       ]
     },
@@ -2438,8 +2438,8 @@
       "name": "EQIX",
       "entry_date": "2021-04-01",
       "exit_date": "2021-06-01",
-      "entry_price": 618.9987,
-      "exit_price": 670.283,
+      "entry_price": 616.0551,
+      "exit_price": 667.0955,
       "return_pct": 5.71,
       "days": 61,
       "exit_reason": "s_rebalance_exit",
@@ -2450,7 +2450,7 @@
           "report_date": "2019-12-24",
           "source_file": "2019-12-24_Equity Research, Equinix.md",
           "target_price": 618.28,
-          "stated_upside_pct": 21.8257
+          "stated_upside_pct": 22.4078
         }
       ]
     },
@@ -2614,8 +2614,8 @@
       "name": "대림제지",
       "entry_date": "2021-05-03",
       "exit_date": "2021-06-01",
-      "entry_price": 14700.0,
-      "exit_price": 14600.0,
+      "entry_price": 2940.0,
+      "exit_price": 2920.0,
       "return_pct": -1.28,
       "days": 29,
       "exit_reason": "s_rebalance_exit",
@@ -2625,8 +2625,8 @@
           "school": "smic",
           "report_date": "2021-04-15",
           "source_file": "2021-04-15_equity-research-대림제지-2.md",
-          "target_price": 21500.0,
-          "stated_upside_pct": 42.3841
+          "target_price": 4705.0725,
+          "stated_upside_pct": 55.7971
         }
       ]
     },
@@ -3434,8 +3434,8 @@
       "name": "WFG",
       "entry_date": "2021-08-02",
       "exit_date": "2021-09-01",
-      "entry_price": 67.3482,
-      "exit_price": 72.0408,
+      "entry_price": 66.7374,
+      "exit_price": 71.3874,
       "return_pct": 7.02,
       "days": 30,
       "exit_reason": "s_rebalance_exit",
@@ -3446,7 +3446,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-west-fraser-timber-co-ltd.md",
           "target_price": 137.0,
-          "stated_upside_pct": 90.115
+          "stated_upside_pct": 91.8551
         }
       ]
     },
@@ -3602,8 +3602,8 @@
       "name": "PYPL",
       "entry_date": "2021-08-02",
       "exit_date": "2021-10-01",
-      "entry_price": 274.5076,
-      "exit_price": 259.2101,
+      "entry_price": 273.8313,
+      "exit_price": 258.5714,
       "return_pct": -5.31,
       "days": 60,
       "exit_reason": "s_rebalance_exit",
@@ -3614,7 +3614,7 @@
           "report_date": "2020-06-09",
           "source_file": "2020-06-09_Equity Research, PayPal Holdings, Inc.md",
           "target_price": 193.09,
-          "stated_upside_pct": 24.1631
+          "stated_upside_pct": 24.4698
         }
       ]
     },
@@ -3800,8 +3800,8 @@
       "name": "GLW",
       "entry_date": "2021-09-01",
       "exit_date": "2021-10-01",
-      "entry_price": 35.3449,
-      "exit_price": 32.5158,
+      "entry_price": 35.2784,
+      "exit_price": 32.4547,
       "return_pct": -6.56,
       "days": 30,
       "exit_reason": "s_rebalance_trim",
@@ -3812,7 +3812,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-corning.md",
           "target_price": 57.0,
-          "stated_upside_pct": 48.6523
+          "stated_upside_pct": 48.9322
         }
       ]
     },
@@ -3998,8 +3998,8 @@
       "name": "GLW",
       "entry_date": "2021-09-01",
       "exit_date": "2021-11-01",
-      "entry_price": 35.3449,
-      "exit_price": 31.455,
+      "entry_price": 35.2784,
+      "exit_price": 31.3959,
       "return_pct": -10.32,
       "days": 61,
       "exit_reason": "s_rebalance_trim",
@@ -4010,7 +4010,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-corning.md",
           "target_price": 57.0,
-          "stated_upside_pct": 48.6523
+          "stated_upside_pct": 48.9322
         }
       ]
     },
@@ -4020,8 +4020,8 @@
       "name": "SBLK",
       "entry_date": "2021-10-01",
       "exit_date": "2021-11-01",
-      "entry_price": 14.3437,
-      "exit_price": 12.2439,
+      "entry_price": 13.658,
+      "exit_price": 11.6586,
       "return_pct": -15.82,
       "days": 31,
       "exit_reason": "s_rebalance_trim",
@@ -4032,7 +4032,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-star-bulk-carriers.md",
           "target_price": 37.8,
-          "stated_upside_pct": 239.1602
+          "stated_upside_pct": 256.1877
         }
       ]
     },
@@ -4174,8 +4174,8 @@
       "name": "SBLK",
       "entry_date": "2021-10-01",
       "exit_date": "2021-12-01",
-      "entry_price": 14.3437,
-      "exit_price": 12.6224,
+      "entry_price": 13.658,
+      "exit_price": 12.019,
       "return_pct": -12.59,
       "days": 61,
       "exit_reason": "s_rebalance_exit",
@@ -4186,7 +4186,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-star-bulk-carriers.md",
           "target_price": 37.8,
-          "stated_upside_pct": 239.1602
+          "stated_upside_pct": 256.1877
         }
       ]
     },
@@ -4306,8 +4306,8 @@
       "name": "PYPL",
       "entry_date": "2021-12-01",
       "exit_date": "2022-01-03",
-      "entry_price": 186.1578,
-      "exit_price": 189.7665,
+      "entry_price": 185.6991,
+      "exit_price": 189.299,
       "return_pct": 1.75,
       "days": 33,
       "exit_reason": "s_rebalance_exit",
@@ -4318,7 +4318,7 @@
           "report_date": "2020-06-09",
           "source_file": "2020-06-09_Equity Research, PayPal Holdings, Inc.md",
           "target_price": 193.09,
-          "stated_upside_pct": 24.1631
+          "stated_upside_pct": 24.4698
         }
       ]
     },
@@ -4592,8 +4592,8 @@
       "name": "GLW",
       "entry_date": "2021-09-01",
       "exit_date": "2022-02-01",
-      "entry_price": 35.3449,
-      "exit_price": 37.5165,
+      "entry_price": 35.2784,
+      "exit_price": 37.446,
       "return_pct": 13.45,
       "days": 153,
       "exit_reason": "s_rebalance_trim",
@@ -4604,7 +4604,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-corning.md",
           "target_price": 57.0,
-          "stated_upside_pct": 48.6523
+          "stated_upside_pct": 48.9322
         }
       ]
     },
@@ -4614,8 +4614,8 @@
       "name": "SBLK",
       "entry_date": "2022-01-03",
       "exit_date": "2022-02-01",
-      "entry_price": 14.4012,
-      "exit_price": 13.9326,
+      "entry_price": 13.7128,
+      "exit_price": 13.2666,
       "return_pct": -2.43,
       "days": 29,
       "exit_reason": "s_rebalance_trim",
@@ -4626,7 +4626,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-star-bulk-carriers.md",
           "target_price": 37.8,
-          "stated_upside_pct": 239.1602
+          "stated_upside_pct": 256.1877
         }
       ]
     },
@@ -4636,8 +4636,8 @@
       "name": "WFG",
       "entry_date": "2021-12-01",
       "exit_date": "2022-02-01",
-      "entry_price": 78.5337,
-      "exit_price": 87.3678,
+      "entry_price": 77.8215,
+      "exit_price": 86.5754,
       "return_pct": 2.12,
       "days": 62,
       "exit_reason": "s_rebalance_trim",
@@ -4648,7 +4648,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-west-fraser-timber-co-ltd.md",
           "target_price": 137.0,
-          "stated_upside_pct": 90.115
+          "stated_upside_pct": 91.8551
         }
       ]
     },
@@ -4746,8 +4746,8 @@
       "name": "SBLK",
       "entry_date": "2022-01-03",
       "exit_date": "2022-03-01",
-      "entry_price": 14.4012,
-      "exit_price": 19.3422,
+      "entry_price": 13.7128,
+      "exit_price": 18.4176,
       "return_pct": 34.98,
       "days": 57,
       "exit_reason": "s_rebalance_trim",
@@ -4758,7 +4758,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-star-bulk-carriers.md",
           "target_price": 37.8,
-          "stated_upside_pct": 239.1602
+          "stated_upside_pct": 256.1877
         }
       ]
     },
@@ -4768,8 +4768,8 @@
       "name": "WFG",
       "entry_date": "2021-12-01",
       "exit_date": "2022-03-01",
-      "entry_price": 78.5337,
-      "exit_price": 94.5156,
+      "entry_price": 77.8215,
+      "exit_price": 93.6584,
       "return_pct": 10.09,
       "days": 90,
       "exit_reason": "s_rebalance_trim",
@@ -4780,7 +4780,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-west-fraser-timber-co-ltd.md",
           "target_price": 137.0,
-          "stated_upside_pct": 90.115
+          "stated_upside_pct": 91.8551
         }
       ]
     },
@@ -4790,8 +4790,8 @@
       "name": "GLW",
       "entry_date": "2021-09-01",
       "exit_date": "2022-04-01",
-      "entry_price": 35.3449,
-      "exit_price": 33.3797,
+      "entry_price": 35.2784,
+      "exit_price": 33.317,
       "return_pct": 1.19,
       "days": 212,
       "exit_reason": "s_rebalance_exit",
@@ -4802,7 +4802,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-corning.md",
           "target_price": 57.0,
-          "stated_upside_pct": 48.6523
+          "stated_upside_pct": 48.9322
         }
       ]
     },
@@ -4812,8 +4812,8 @@
       "name": "WFG",
       "entry_date": "2021-12-01",
       "exit_date": "2022-04-01",
-      "entry_price": 78.5337,
-      "exit_price": 77.8792,
+      "entry_price": 77.8215,
+      "exit_price": 77.1728,
       "return_pct": -8.27,
       "days": 121,
       "exit_reason": "s_rebalance_exit",
@@ -4824,7 +4824,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-west-fraser-timber-co-ltd.md",
           "target_price": 137.0,
-          "stated_upside_pct": 90.115
+          "stated_upside_pct": 91.8551
         }
       ]
     },
@@ -4980,8 +4980,8 @@
       "name": "SBLK",
       "entry_date": "2022-01-03",
       "exit_date": "2022-05-02",
-      "entry_price": 14.4012,
-      "exit_price": 18.7666,
+      "entry_price": 13.7128,
+      "exit_price": 17.8695,
       "return_pct": 21.61,
       "days": 119,
       "exit_reason": "s_rebalance_exit",
@@ -4992,7 +4992,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-star-bulk-carriers.md",
           "target_price": 37.8,
-          "stated_upside_pct": 239.1602
+          "stated_upside_pct": 256.1877
         }
       ]
     },
@@ -5316,8 +5316,8 @@
       "name": "대림제지",
       "entry_date": "2022-05-02",
       "exit_date": "2022-06-01",
-      "entry_price": 10650.0,
-      "exit_price": 9850.0,
+      "entry_price": 2130.0,
+      "exit_price": 1970.0,
       "return_pct": -8.07,
       "days": 30,
       "exit_reason": "s_rebalance_exit",
@@ -5327,8 +5327,8 @@
           "school": "smic",
           "report_date": "2021-04-15",
           "source_file": "2021-04-15_equity-research-대림제지-2.md",
-          "target_price": 21500.0,
-          "stated_upside_pct": 42.3841
+          "target_price": 4705.0725,
+          "stated_upside_pct": 55.7971
         }
       ]
     },
@@ -5426,8 +5426,8 @@
       "name": "GLW",
       "entry_date": "2022-06-01",
       "exit_date": "2022-07-01",
-      "entry_price": 32.4823,
-      "exit_price": 28.3126,
+      "entry_price": 32.4213,
+      "exit_price": 28.2594,
       "return_pct": -10.15,
       "days": 30,
       "exit_reason": "s_rebalance_exit",
@@ -5438,7 +5438,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-corning.md",
           "target_price": 57.0,
-          "stated_upside_pct": 48.6523
+          "stated_upside_pct": 48.9322
         }
       ]
     },
@@ -5448,8 +5448,8 @@
       "name": "SBLK",
       "entry_date": "2022-06-01",
       "exit_date": "2022-07-01",
-      "entry_price": 22.3272,
-      "exit_price": 17.2593,
+      "entry_price": 21.2599,
+      "exit_price": 16.4342,
       "return_pct": -20.32,
       "days": 30,
       "exit_reason": "s_rebalance_exit",
@@ -5460,7 +5460,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-star-bulk-carriers.md",
           "target_price": 37.8,
-          "stated_upside_pct": 239.1602
+          "stated_upside_pct": 256.1877
         }
       ]
     },
@@ -5470,8 +5470,8 @@
       "name": "삼성바이오로직스",
       "entry_date": "2022-04-01",
       "exit_date": "2022-07-01",
-      "entry_price": 1214189.0,
-      "exit_price": 1175923.0,
+      "entry_price": 1204842.0,
+      "exit_price": 1166871.0,
       "return_pct": -4.11,
       "days": 91,
       "exit_reason": "s_rebalance_exit",
@@ -6040,8 +6040,8 @@
       "name": "대림제지",
       "entry_date": "2022-09-01",
       "exit_date": "2022-10-03",
-      "entry_price": 9230.0,
-      "exit_price": 7690.0,
+      "entry_price": 1846.0,
+      "exit_price": 1538.0,
       "return_pct": -17.18,
       "days": 32,
       "exit_reason": "s_rebalance_exit",
@@ -6051,8 +6051,8 @@
           "school": "smic",
           "report_date": "2021-04-15",
           "source_file": "2021-04-15_equity-research-대림제지-2.md",
-          "target_price": 21500.0,
-          "stated_upside_pct": 42.3841
+          "target_price": 4705.0725,
+          "stated_upside_pct": 55.7971
         }
       ]
     },
@@ -6318,8 +6318,8 @@
       "name": "STNG",
       "entry_date": "2022-10-03",
       "exit_date": "2022-11-01",
-      "entry_price": 39.6385,
-      "exit_price": 44.9359,
+      "entry_price": 39.4139,
+      "exit_price": 44.6812,
       "return_pct": 11.55,
       "days": 29,
       "exit_reason": "s_rebalance_exit",
@@ -6330,7 +6330,7 @@
           "report_date": "2022-05-25",
           "source_file": "2022-05-25_equity-research-scorpio-tankers-inc.md",
           "target_price": 44.66,
-          "stated_upside_pct": 54.5657
+          "stated_upside_pct": 55.4466
         }
       ]
     },
@@ -6434,8 +6434,8 @@
       "name": "GLW",
       "entry_date": "2022-11-01",
       "exit_date": "2022-12-01",
-      "entry_price": 29.6194,
-      "exit_price": 31.4926,
+      "entry_price": 29.5637,
+      "exit_price": 31.4334,
       "return_pct": -5.06,
       "days": 30,
       "exit_reason": "s_rebalance_exit",
@@ -6446,7 +6446,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-corning.md",
           "target_price": 57.0,
-          "stated_upside_pct": 48.6523
+          "stated_upside_pct": 48.9322
         }
       ]
     },
@@ -6456,8 +6456,8 @@
       "name": "SBLK",
       "entry_date": "2022-11-01",
       "exit_date": "2022-12-01",
-      "entry_price": 13.387,
-      "exit_price": 15.2712,
+      "entry_price": 12.7471,
+      "exit_price": 14.5412,
       "return_pct": 1.86,
       "days": 30,
       "exit_reason": "s_rebalance_exit",
@@ -6468,7 +6468,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-star-bulk-carriers.md",
           "target_price": 37.8,
-          "stated_upside_pct": 239.1602
+          "stated_upside_pct": 256.1877
         }
       ]
     },
@@ -6478,8 +6478,8 @@
       "name": "삼성바이오로직스",
       "entry_date": "2022-11-01",
       "exit_date": "2022-12-01",
-      "entry_price": 1303965.0,
-      "exit_price": 1314267.0,
+      "entry_price": 1293927.0,
+      "exit_price": 1304150.0,
       "return_pct": 0.19,
       "days": 30,
       "exit_reason": "s_rebalance_exit",
@@ -6815,8 +6815,8 @@
       "name": "에코프로비엠",
       "entry_date": "2022-12-01",
       "exit_date": "2023-01-02",
-      "entry_price": 116100.0,
-      "exit_price": 93100.0,
+      "entry_price": 114272.0,
+      "exit_price": 91634.0,
       "return_pct": -20.29,
       "days": 32,
       "exit_reason": "s_rebalance_exit",
@@ -6827,7 +6827,7 @@
           "report_date": "2022-08-13",
           "source_file": "2022-08-13_[220813] 에코프로비엠(247540).md",
           "target_price": 181600.0,
-          "stated_upside_pct": 53.2489
+          "stated_upside_pct": 55.7007
         }
       ]
     },
@@ -7217,8 +7217,8 @@
       "name": "NE",
       "entry_date": "2023-02-01",
       "exit_date": "2023-03-01",
-      "entry_price": 34.6234,
-      "exit_price": 35.597,
+      "entry_price": 34.2633,
+      "exit_price": 35.2268,
       "return_pct": 9.62,
       "days": 28,
       "exit_reason": "s_rebalance_exit",
@@ -7229,7 +7229,7 @@
           "report_date": "2022-11-25",
           "source_file": "2022-11-25_equity-research-noble-corporation-plc.md",
           "target_price": 47.16,
-          "stated_upside_pct": 51.4924
+          "stated_upside_pct": 53.0844
         }
       ]
     },
@@ -7263,7 +7263,7 @@
       "exit_date": "2023-04-03",
       "entry_price": 2.19,
       "exit_price": 1.73,
-      "return_pct": 13.94,
+      "return_pct": 13.93,
       "days": 61,
       "exit_reason": "s_rebalance_exit",
       "entry_reason": "mincvar 월간 리밸런스 — 목표비중 4.0% 재조정 보유",
@@ -7305,8 +7305,8 @@
       "name": "STNG",
       "entry_date": "2023-03-01",
       "exit_date": "2023-04-03",
-      "entry_price": 56.1943,
-      "exit_price": 49.7597,
+      "entry_price": 55.8759,
+      "exit_price": 49.4777,
       "return_pct": -13.05,
       "days": 33,
       "exit_reason": "s_rebalance_exit",
@@ -7317,7 +7317,7 @@
           "report_date": "2022-05-25",
           "source_file": "2022-05-25_equity-research-scorpio-tankers-inc.md",
           "target_price": 44.66,
-          "stated_upside_pct": 54.5657
+          "stated_upside_pct": 55.4466
         }
       ]
     },
@@ -7422,8 +7422,8 @@
       "name": "효성화학",
       "entry_date": "2023-04-03",
       "exit_date": "2023-05-01",
-      "entry_price": 132000.0,
-      "exit_price": 106500.0,
+      "entry_price": 264000.0,
+      "exit_price": 213000.0,
       "return_pct": -19.8,
       "days": 28,
       "exit_reason": "s_rebalance_exit",
@@ -7433,8 +7433,8 @@
           "school": "ewha",
           "report_date": "2022-02-12",
           "source_file": "2022-02-12_[220212] 효성화학(298000).md",
-          "target_price": 408000.0,
-          "stated_upside_pct": 40.9326
+          "target_price": null,
+          "stated_upside_pct": null
         }
       ]
     },
@@ -7583,8 +7583,8 @@
       "name": "에코프로비엠",
       "entry_date": "2023-04-03",
       "exit_date": "2023-05-01",
-      "entry_price": 231000.0,
-      "exit_price": 267000.0,
+      "entry_price": 227363.0,
+      "exit_price": 262797.0,
       "return_pct": 14.89,
       "days": 28,
       "exit_reason": "s_rebalance_exit",
@@ -7595,7 +7595,7 @@
           "report_date": "2022-08-13",
           "source_file": "2022-08-13_[220813] 에코프로비엠(247540).md",
           "target_price": 181600.0,
-          "stated_upside_pct": 53.2489
+          "stated_upside_pct": 55.7007
         }
       ]
     },
@@ -7773,8 +7773,8 @@
       "name": "STNG",
       "entry_date": "2023-05-01",
       "exit_date": "2023-06-01",
-      "entry_price": 47.5942,
-      "exit_price": 43.1619,
+      "entry_price": 47.3245,
+      "exit_price": 42.9173,
       "return_pct": -10.9,
       "days": 31,
       "exit_reason": "s_rebalance_exit",
@@ -7785,7 +7785,7 @@
           "report_date": "2022-05-25",
           "source_file": "2022-05-25_equity-research-scorpio-tankers-inc.md",
           "target_price": 44.66,
-          "stated_upside_pct": 54.5657
+          "stated_upside_pct": 55.4466
         }
       ]
     },
@@ -8856,8 +8856,8 @@
       "name": "NE",
       "entry_date": "2023-08-01",
       "exit_date": "2023-09-01",
-      "entry_price": 44.1034,
-      "exit_price": 46.4565,
+      "entry_price": 43.6447,
+      "exit_price": 45.9734,
       "return_pct": 8.53,
       "days": 31,
       "exit_reason": "s_rebalance_exit",
@@ -8868,7 +8868,7 @@
           "report_date": "2022-11-25",
           "source_file": "2022-11-25_equity-research-noble-corporation-plc.md",
           "target_price": 47.16,
-          "stated_upside_pct": 51.4924
+          "stated_upside_pct": 53.0844
         }
       ]
     },
@@ -9184,8 +9184,8 @@
       "name": "에코프로비엠",
       "entry_date": "2023-09-01",
       "exit_date": "2023-10-02",
-      "entry_price": 320500.0,
-      "exit_price": 253000.0,
+      "entry_price": 315455.0,
+      "exit_price": 249017.0,
       "return_pct": -21.53,
       "days": 31,
       "exit_reason": "s_rebalance_exit",
@@ -9196,7 +9196,7 @@
           "report_date": "2022-08-13",
           "source_file": "2022-08-13_[220813] 에코프로비엠(247540).md",
           "target_price": 181600.0,
-          "stated_upside_pct": 53.2489
+          "stated_upside_pct": 55.7007
         }
       ]
     },
@@ -9477,8 +9477,8 @@
       "name": "NE",
       "entry_date": "2023-10-02",
       "exit_date": "2023-11-01",
-      "entry_price": 43.3812,
-      "exit_price": 40.6924,
+      "entry_price": 42.93,
+      "exit_price": 40.2692,
       "return_pct": -6.88,
       "days": 30,
       "exit_reason": "s_rebalance_exit",
@@ -9489,7 +9489,7 @@
           "report_date": "2022-11-25",
           "source_file": "2022-11-25_equity-research-noble-corporation-plc.md",
           "target_price": 47.16,
-          "stated_upside_pct": 51.4924
+          "stated_upside_pct": 53.0844
         }
       ]
     },
@@ -9499,8 +9499,8 @@
       "name": "STNG",
       "entry_date": "2023-09-01",
       "exit_date": "2023-11-01",
-      "entry_price": 47.689,
-      "exit_price": 52.5129,
+      "entry_price": 47.4188,
+      "exit_price": 52.2153,
       "return_pct": 11.4,
       "days": 61,
       "exit_reason": "s_rebalance_trim",
@@ -9511,7 +9511,7 @@
           "report_date": "2022-05-25",
           "source_file": "2022-05-25_equity-research-scorpio-tankers-inc.md",
           "target_price": 44.66,
-          "stated_upside_pct": 54.5657
+          "stated_upside_pct": 55.4466
         }
       ]
     },
@@ -9521,8 +9521,8 @@
       "name": "BAC",
       "entry_date": "2023-10-02",
       "exit_date": "2023-11-01",
-      "entry_price": 25.508,
-      "exit_price": 24.7316,
+      "entry_price": 25.3785,
+      "exit_price": 24.6061,
       "return_pct": -3.75,
       "days": 30,
       "exit_reason": "s_rebalance_trim",
@@ -9533,7 +9533,7 @@
           "report_date": "2023-05-25",
           "source_file": "2023-05-25_equity-research-bank-of-america-corp.md",
           "target_price": 33.17,
-          "stated_upside_pct": 27.945
+          "stated_upside_pct": 28.5977
         }
       ]
     },
@@ -9594,8 +9594,8 @@
       "name": "STNG",
       "entry_date": "2023-09-01",
       "exit_date": "2023-12-01",
-      "entry_price": 47.689,
-      "exit_price": 51.4633,
+      "entry_price": 47.4188,
+      "exit_price": 51.1716,
       "return_pct": 4.84,
       "days": 91,
       "exit_reason": "s_rebalance_exit",
@@ -9606,7 +9606,7 @@
           "report_date": "2022-05-25",
           "source_file": "2022-05-25_equity-research-scorpio-tankers-inc.md",
           "target_price": 44.66,
-          "stated_upside_pct": 54.5657
+          "stated_upside_pct": 55.4466
         }
       ]
     },
@@ -9689,8 +9689,8 @@
       "name": "삼성바이오로직스",
       "entry_date": "2023-11-01",
       "exit_date": "2023-12-01",
-      "entry_price": 1043466.0,
-      "exit_price": 1067014.0,
+      "entry_price": 1035433.0,
+      "exit_price": 1058800.0,
       "return_pct": 1.64,
       "days": 30,
       "exit_reason": "s_rebalance_trim",
@@ -9708,7 +9708,7 @@
           "report_date": "2023-08-20",
           "source_file": "2023-08-20_STAR_삼성바이오로직스.md",
           "target_price": 1307000.0,
-          "stated_upside_pct": 15.1832
+          "stated_upside_pct": 16.0768
         }
       ]
     },
@@ -9747,8 +9747,8 @@
       "name": "BAC",
       "entry_date": "2023-10-02",
       "exit_date": "2023-12-01",
-      "entry_price": 25.508,
-      "exit_price": 28.6627,
+      "entry_price": 25.3785,
+      "exit_price": 28.5172,
       "return_pct": 7.13,
       "days": 60,
       "exit_reason": "s_rebalance_trim",
@@ -9759,7 +9759,7 @@
           "report_date": "2023-05-25",
           "source_file": "2023-05-25_equity-research-bank-of-america-corp.md",
           "target_price": 33.17,
-          "stated_upside_pct": 27.945
+          "stated_upside_pct": 28.5977
         }
       ]
     },
@@ -9906,8 +9906,8 @@
       "name": "삼성바이오로직스",
       "entry_date": "2023-11-01",
       "exit_date": "2024-01-02",
-      "entry_price": 1043466.0,
-      "exit_price": 1118525.0,
+      "entry_price": 1035433.0,
+      "exit_price": 1109914.0,
       "return_pct": 6.55,
       "days": 62,
       "exit_reason": "s_rebalance_exit",
@@ -9925,7 +9925,7 @@
           "report_date": "2023-08-20",
           "source_file": "2023-08-20_STAR_삼성바이오로직스.md",
           "target_price": 1307000.0,
-          "stated_upside_pct": 15.1832
+          "stated_upside_pct": 16.0768
         }
       ]
     },
@@ -10220,8 +10220,8 @@
       "name": "LLY",
       "entry_date": "2024-01-02",
       "exit_date": "2024-02-01",
-      "entry_price": 570.4416,
-      "exit_price": 636.2121,
+      "entry_price": 569.6251,
+      "exit_price": 635.3018,
       "return_pct": 14.32,
       "days": 30,
       "exit_reason": "s_rebalance_exit",
@@ -10232,7 +10232,7 @@
           "report_date": "2023-11-22",
           "source_file": "2023-11-22_equity-research-eli-lilly-co.md",
           "target_price": 745.2,
-          "stated_upside_pct": 27.4131
+          "stated_upside_pct": 27.5957
         }
       ]
     },
@@ -10242,8 +10242,8 @@
       "name": "NE",
       "entry_date": "2023-12-01",
       "exit_date": "2024-02-01",
-      "entry_price": 39.4511,
-      "exit_price": 38.5848,
+      "entry_price": 39.0408,
+      "exit_price": 38.1835,
       "return_pct": -3.9,
       "days": 62,
       "exit_reason": "s_rebalance_trim",
@@ -10254,7 +10254,7 @@
           "report_date": "2022-11-25",
           "source_file": "2022-11-25_equity-research-noble-corporation-plc.md",
           "target_price": 47.16,
-          "stated_upside_pct": 51.4924
+          "stated_upside_pct": 53.0844
         }
       ]
     },
@@ -10264,8 +10264,8 @@
       "name": "BAC",
       "entry_date": "2023-10-02",
       "exit_date": "2024-02-01",
-      "entry_price": 25.508,
-      "exit_price": 31.991,
+      "entry_price": 25.3785,
+      "exit_price": 31.8286,
       "return_pct": 11.42,
       "days": 122,
       "exit_reason": "s_rebalance_trim",
@@ -10276,7 +10276,7 @@
           "report_date": "2023-05-25",
           "source_file": "2023-05-25_equity-research-bank-of-america-corp.md",
           "target_price": 33.17,
-          "stated_upside_pct": 27.945
+          "stated_upside_pct": 28.5977
         }
       ]
     },
@@ -10286,8 +10286,8 @@
       "name": "VRT",
       "entry_date": "2024-01-02",
       "exit_date": "2024-02-01",
-      "entry_price": 47.3444,
-      "exit_price": 57.3059,
+      "entry_price": 47.323,
+      "exit_price": 57.28,
       "return_pct": 24.07,
       "days": 30,
       "exit_reason": "s_rebalance_trim",
@@ -10298,7 +10298,7 @@
           "report_date": "2023-11-22",
           "source_file": "2023-11-22_equity-research-vertiv-holdings-co.md",
           "target_price": 61.97,
-          "stated_upside_pct": 42.8811
+          "stated_upside_pct": 42.9459
         }
       ]
     },
@@ -10344,8 +10344,8 @@
       "name": "삼성바이오로직스",
       "entry_date": "2024-02-01",
       "exit_date": "2024-03-01",
-      "entry_price": 1220076.0,
-      "exit_price": 1139130.0,
+      "entry_price": 1210684.0,
+      "exit_price": 1130361.0,
       "return_pct": -7.19,
       "days": 29,
       "exit_reason": "s_rebalance_exit",
@@ -10363,7 +10363,7 @@
           "report_date": "2023-08-20",
           "source_file": "2023-08-20_STAR_삼성바이오로직스.md",
           "target_price": 1307000.0,
-          "stated_upside_pct": 15.1832
+          "stated_upside_pct": 16.0768
         }
       ]
     },
@@ -10453,8 +10453,8 @@
       "name": "NE",
       "entry_date": "2023-12-01",
       "exit_date": "2024-03-01",
-      "entry_price": 39.4511,
-      "exit_price": 36.7136,
+      "entry_price": 39.0408,
+      "exit_price": 36.3318,
       "return_pct": -8.47,
       "days": 91,
       "exit_reason": "s_rebalance_exit",
@@ -10465,7 +10465,7 @@
           "report_date": "2022-11-25",
           "source_file": "2022-11-25_equity-research-noble-corporation-plc.md",
           "target_price": 47.16,
-          "stated_upside_pct": 51.4924
+          "stated_upside_pct": 53.0844
         }
       ]
     },
@@ -10570,8 +10570,8 @@
       "name": "BAC",
       "entry_date": "2023-10-02",
       "exit_date": "2024-03-01",
-      "entry_price": 25.508,
-      "exit_price": 32.786,
+      "entry_price": 25.3785,
+      "exit_price": 32.6196,
       "return_pct": 14.3,
       "days": 151,
       "exit_reason": "s_rebalance_exit",
@@ -10582,7 +10582,7 @@
           "report_date": "2023-05-25",
           "source_file": "2023-05-25_equity-research-bank-of-america-corp.md",
           "target_price": 33.17,
-          "stated_upside_pct": 27.945
+          "stated_upside_pct": 28.5977
         }
       ]
     },
@@ -10636,8 +10636,8 @@
       "name": "VRT",
       "entry_date": "2024-01-02",
       "exit_date": "2024-03-01",
-      "entry_price": 47.3444,
-      "exit_price": 68.2047,
+      "entry_price": 47.323,
+      "exit_price": 68.1738,
       "return_pct": 47.81,
       "days": 59,
       "exit_reason": "s_rebalance_trim",
@@ -10648,7 +10648,7 @@
           "report_date": "2023-11-22",
           "source_file": "2023-11-22_equity-research-vertiv-holdings-co.md",
           "target_price": 61.97,
-          "stated_upside_pct": 42.8811
+          "stated_upside_pct": 42.9459
         }
       ]
     },
@@ -10709,8 +10709,8 @@
       "name": "LLY",
       "entry_date": "2024-03-01",
       "exit_date": "2024-04-01",
-      "entry_price": 757.1369,
-      "exit_price": 764.009,
+      "entry_price": 756.0536,
+      "exit_price": 762.9158,
       "return_pct": 1.06,
       "days": 31,
       "exit_reason": "s_rebalance_exit",
@@ -10721,7 +10721,7 @@
           "report_date": "2023-11-22",
           "source_file": "2023-11-22_equity-research-eli-lilly-co.md",
           "target_price": 745.2,
-          "stated_upside_pct": 27.4131
+          "stated_upside_pct": 27.5957
         }
       ]
     },
@@ -10731,8 +10731,8 @@
       "name": "VRT",
       "entry_date": "2024-01-02",
       "exit_date": "2024-04-01",
-      "entry_price": 47.3444,
-      "exit_price": 81.8733,
+      "entry_price": 47.323,
+      "exit_price": 81.8362,
       "return_pct": 78.77,
       "days": 90,
       "exit_reason": "s_rebalance_exit",
@@ -10743,7 +10743,7 @@
           "report_date": "2023-11-22",
           "source_file": "2023-11-22_equity-research-vertiv-holdings-co.md",
           "target_price": 61.97,
-          "stated_upside_pct": 42.8811
+          "stated_upside_pct": 42.9459
         }
       ]
     },
@@ -11123,8 +11123,8 @@
       "name": "티앤엘",
       "entry_date": "2024-04-01",
       "exit_date": "2024-05-01",
-      "entry_price": 54200.0,
-      "exit_price": 60400.0,
+      "entry_price": 27430.0,
+      "exit_price": 30568.0,
       "return_pct": 10.77,
       "days": 30,
       "exit_reason": "s_rebalance_exit",
@@ -11135,21 +11135,21 @@
           "report_date": "2023-04-22",
           "source_file": "2023-04-22_STAR_티앤엘.md",
           "target_price": 63300.0,
-          "stated_upside_pct": 38.6637
+          "stated_upside_pct": 173.9904
         },
         {
           "school": "voera",
           "report_date": "2023-05-03",
           "source_file": "undated_[BUY].md",
-          "target_price": 105000.0,
-          "stated_upside_pct": 118.75
+          "target_price": null,
+          "stated_upside_pct": null
         },
         {
           "school": "kuvic",
           "report_date": "2023-11-20",
           "source_file": "2023-11-20_티앤엘 - Mighty Patch is getting Mighter.md",
           "target_price": 59100.0,
-          "stated_upside_pct": 40.38
+          "stated_upside_pct": 177.3867
         }
       ]
     },
@@ -11305,8 +11305,8 @@
       "name": "코미코",
       "entry_date": "2024-04-01",
       "exit_date": "2024-05-01",
-      "entry_price": 38249.0,
-      "exit_price": 46602.0,
+      "entry_price": 15327.0,
+      "exit_price": 18675.0,
       "return_pct": 21.11,
       "days": 30,
       "exit_reason": "s_rebalance_exit",
@@ -11316,8 +11316,8 @@
           "school": "star",
           "report_date": "2024-01-06",
           "source_file": "2024-01-06_STAR_코미코.md",
-          "target_price": 75100.0,
-          "stated_upside_pct": 130.7574
+          "target_price": 16944.2751,
+          "stated_upside_pct": 29.9308
         }
       ]
     },
@@ -11356,8 +11356,8 @@
       "name": "NE",
       "entry_date": "2024-05-01",
       "exit_date": "2024-06-03",
-      "entry_price": 38.831,
-      "exit_price": 40.7809,
+      "entry_price": 38.4272,
+      "exit_price": 40.3568,
       "return_pct": 4.14,
       "days": 33,
       "exit_reason": "s_rebalance_exit",
@@ -11368,7 +11368,7 @@
           "report_date": "2022-11-25",
           "source_file": "2022-11-25_equity-research-noble-corporation-plc.md",
           "target_price": 47.16,
-          "stated_upside_pct": 51.4924
+          "stated_upside_pct": 53.0844
         }
       ]
     },
@@ -11422,8 +11422,8 @@
       "name": "SK디앤디",
       "entry_date": "2024-04-01",
       "exit_date": "2024-06-03",
-      "entry_price": 12200.0,
-      "exit_price": 11510.0,
+      "entry_price": 8300.0,
+      "exit_price": 7831.0,
       "return_pct": -6.22,
       "days": 63,
       "exit_reason": "s_rebalance_exit",
@@ -11433,8 +11433,8 @@
           "school": "smic",
           "report_date": "2023-05-11",
           "source_file": "2023-05-11_equity-research-sk디앤디-2.md",
-          "target_price": 38000.0,
-          "stated_upside_pct": 186.5113
+          "target_price": 15375.5157,
+          "stated_upside_pct": 70.4036
         }
       ]
     },
@@ -11473,8 +11473,8 @@
       "name": "VRT",
       "entry_date": "2024-05-01",
       "exit_date": "2024-06-03",
-      "entry_price": 91.8979,
-      "exit_price": 97.9526,
+      "entry_price": 91.8563,
+      "exit_price": 97.9083,
       "return_pct": 5.69,
       "days": 33,
       "exit_reason": "s_rebalance_trim",
@@ -11485,7 +11485,7 @@
           "report_date": "2023-11-22",
           "source_file": "2023-11-22_equity-research-vertiv-holdings-co.md",
           "target_price": 61.97,
-          "stated_upside_pct": 42.8811
+          "stated_upside_pct": 42.9459
         }
       ]
     },
@@ -11733,8 +11733,8 @@
       "name": "티앤엘",
       "entry_date": "2024-06-03",
       "exit_date": "2024-07-01",
-      "entry_price": 65400.0,
-      "exit_price": 70900.0,
+      "entry_price": 33098.0,
+      "exit_price": 35882.0,
       "return_pct": 7.76,
       "days": 28,
       "exit_reason": "s_rebalance_exit",
@@ -11745,21 +11745,21 @@
           "report_date": "2023-04-22",
           "source_file": "2023-04-22_STAR_티앤엘.md",
           "target_price": 63300.0,
-          "stated_upside_pct": 38.6637
+          "stated_upside_pct": 173.9904
         },
         {
           "school": "voera",
           "report_date": "2023-05-03",
           "source_file": "undated_[BUY].md",
-          "target_price": 105000.0,
-          "stated_upside_pct": 118.75
+          "target_price": null,
+          "stated_upside_pct": null
         },
         {
           "school": "kuvic",
           "report_date": "2023-11-20",
           "source_file": "2023-11-20_티앤엘 - Mighty Patch is getting Mighter.md",
           "target_price": 59100.0,
-          "stated_upside_pct": 40.38
+          "stated_upside_pct": 177.3867
         }
       ]
     },
@@ -11871,8 +11871,8 @@
       "name": "VRT",
       "entry_date": "2024-05-01",
       "exit_date": "2024-07-01",
-      "entry_price": 91.8979,
-      "exit_price": 87.2137,
+      "entry_price": 91.8563,
+      "exit_price": 87.1742,
       "return_pct": -6.02,
       "days": 61,
       "exit_reason": "s_rebalance_exit",
@@ -11883,7 +11883,7 @@
           "report_date": "2023-11-22",
           "source_file": "2023-11-22_equity-research-vertiv-holdings-co.md",
           "target_price": 61.97,
-          "stated_upside_pct": 42.8811
+          "stated_upside_pct": 42.9459
         }
       ]
     },
@@ -12389,7 +12389,7 @@
       "exit_date": "2024-08-01",
       "entry_price": 40050.0,
       "exit_price": 44550.0,
-      "return_pct": 3.67,
+      "return_pct": 3.69,
       "days": 59,
       "exit_reason": "s_rebalance_exit",
       "entry_reason": "mincvar 월간 리밸런스 — 목표비중 3.9% 재조정 보유",
@@ -12453,8 +12453,8 @@
       "name": "알테오젠",
       "entry_date": "2024-07-01",
       "exit_date": "2024-08-01",
-      "entry_price": 277500.0,
-      "exit_price": 313500.0,
+      "entry_price": 213523.0,
+      "exit_price": 241223.0,
       "return_pct": 12.3,
       "days": 31,
       "exit_reason": "s_rebalance_exit",
@@ -12465,7 +12465,7 @@
           "report_date": "2024-05-09",
           "source_file": "2024-05-09_equity-research-알테오젠.md",
           "target_price": 242200.0,
-          "stated_upside_pct": 42.5544
+          "stated_upside_pct": 85.2688
         }
       ]
     },
@@ -13092,8 +13092,8 @@
       "name": "삼성바이오로직스",
       "entry_date": "2024-08-01",
       "exit_date": "2024-10-01",
-      "entry_price": 1365778.0,
-      "exit_price": 1437894.0,
+      "entry_price": 1355264.0,
+      "exit_price": 1426825.0,
       "return_pct": -1.52,
       "days": 61,
       "exit_reason": "s_rebalance_exit",
@@ -13111,7 +13111,7 @@
           "report_date": "2023-08-20",
           "source_file": "2023-08-20_STAR_삼성바이오로직스.md",
           "target_price": 1307000.0,
-          "stated_upside_pct": 15.1832
+          "stated_upside_pct": 16.0768
         }
       ]
     },
@@ -13991,8 +13991,8 @@
       "name": "VRT",
       "entry_date": "2024-12-02",
       "exit_date": "2025-01-02",
-      "entry_price": 128.7473,
-      "exit_price": 114.829,
+      "entry_price": 128.6889,
+      "exit_price": 114.777,
       "return_pct": -6.68,
       "days": 31,
       "exit_reason": "s_rebalance_exit",
@@ -14003,7 +14003,7 @@
           "report_date": "2023-11-22",
           "source_file": "2023-11-22_equity-research-vertiv-holdings-co.md",
           "target_price": 61.97,
-          "stated_upside_pct": 42.8811
+          "stated_upside_pct": 42.9459
         }
       ]
     },
@@ -14313,8 +14313,8 @@
       "name": "LLY",
       "entry_date": "2025-01-02",
       "exit_date": "2025-02-03",
-      "entry_price": 772.1905,
-      "exit_price": 795.6157,
+      "entry_price": 771.0855,
+      "exit_price": 794.4773,
       "return_pct": 1.25,
       "days": 32,
       "exit_reason": "s_rebalance_exit",
@@ -14325,14 +14325,14 @@
           "report_date": "2023-11-22",
           "source_file": "2023-11-22_equity-research-eli-lilly-co.md",
           "target_price": 745.2,
-          "stated_upside_pct": 27.4131
+          "stated_upside_pct": 27.5957
         },
         {
           "school": "yig",
           "report_date": "2024-09-28",
           "source_file": "2025-11-10_GLP-1, 지방아 내 몸에서 나가! (발간일 240928) YIG Research.md",
           "target_price": 1390.0,
-          "stated_upside_pct": 60.3398
+          "stated_upside_pct": 60.5696
         }
       ]
     },
@@ -14386,8 +14386,8 @@
       "name": "LEVI",
       "entry_date": "2025-01-02",
       "exit_date": "2025-02-03",
-      "entry_price": 16.767,
-      "exit_price": 17.5824,
+      "entry_price": 16.53,
+      "exit_price": 17.3338,
       "return_pct": 3.05,
       "days": 32,
       "exit_reason": "s_rebalance_exit",
@@ -14398,7 +14398,7 @@
           "report_date": "2024-11-21",
           "source_file": "2024-11-21_equity-research-levi-strauss-co.md",
           "target_price": 26.33,
-          "stated_upside_pct": 71.8822
+          "stated_upside_pct": 74.3472
         }
       ]
     },
@@ -14889,8 +14889,8 @@
       "name": "티앤엘",
       "entry_date": "2025-02-03",
       "exit_date": "2025-04-01",
-      "entry_price": 80700.0,
-      "exit_price": 75600.0,
+      "entry_price": 40842.0,
+      "exit_price": 38260.0,
       "return_pct": -6.88,
       "days": 57,
       "exit_reason": "s_rebalance_exit",
@@ -14901,28 +14901,28 @@
           "report_date": "2023-04-22",
           "source_file": "2023-04-22_STAR_티앤엘.md",
           "target_price": 63300.0,
-          "stated_upside_pct": 38.6637
+          "stated_upside_pct": 173.9904
         },
         {
           "school": "voera",
           "report_date": "2023-05-03",
           "source_file": "undated_[BUY].md",
-          "target_price": 105000.0,
-          "stated_upside_pct": 118.75
+          "target_price": null,
+          "stated_upside_pct": null
         },
         {
           "school": "kuvic",
           "report_date": "2023-11-20",
           "source_file": "2023-11-20_티앤엘 - Mighty Patch is getting Mighter.md",
           "target_price": 59100.0,
-          "stated_upside_pct": 40.38
+          "stated_upside_pct": 177.3867
         },
         {
           "school": "ewha",
           "report_date": "2024-08-23",
           "source_file": "2024-08-23_[240823] 티앤엘(340570).md",
           "target_price": 113900.0,
-          "stated_upside_pct": 53.504
+          "stated_upside_pct": 203.3127
         }
       ]
     },
@@ -14932,8 +14932,8 @@
       "name": "LLY",
       "entry_date": "2025-03-03",
       "exit_date": "2025-04-01",
-      "entry_price": 904.5341,
-      "exit_price": 811.1871,
+      "entry_price": 903.2397,
+      "exit_price": 810.0264,
       "return_pct": -10.11,
       "days": 29,
       "exit_reason": "s_rebalance_exit",
@@ -14944,14 +14944,14 @@
           "report_date": "2023-11-22",
           "source_file": "2023-11-22_equity-research-eli-lilly-co.md",
           "target_price": 745.2,
-          "stated_upside_pct": 27.4131
+          "stated_upside_pct": 27.5957
         },
         {
           "school": "yig",
           "report_date": "2024-09-28",
           "source_file": "2025-11-10_GLP-1, 지방아 내 몸에서 나가! (발간일 240928) YIG Research.md",
           "target_price": 1390.0,
-          "stated_upside_pct": 60.3398
+          "stated_upside_pct": 60.5696
         }
       ]
     },
@@ -15654,7 +15654,7 @@
       "return_pct": 26.86,
       "days": 29,
       "exit_reason": "s_rebalance_exit",
-      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 3.3% 신규 편입 (18개월 유효 리포트 유니버스)",
+      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 3.4% 신규 편입 (18개월 유효 리포트 유니버스)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -15853,8 +15853,8 @@
       "name": "LEVI",
       "entry_date": "2025-05-01",
       "exit_date": "2025-07-01",
-      "entry_price": 15.6383,
-      "exit_price": 17.85,
+      "entry_price": 15.4172,
+      "exit_price": 17.5977,
       "return_pct": 3.57,
       "days": 61,
       "exit_reason": "s_rebalance_exit",
@@ -15865,7 +15865,7 @@
           "report_date": "2024-11-21",
           "source_file": "2024-11-21_equity-research-levi-strauss-co.md",
           "target_price": 26.33,
-          "stated_upside_pct": 71.8822
+          "stated_upside_pct": 74.3472
         }
       ]
     },
@@ -17208,8 +17208,8 @@
       "name": "LEVI",
       "entry_date": "2025-08-01",
       "exit_date": "2025-10-01",
-      "entry_price": 18.7344,
-      "exit_price": 23.0207,
+      "entry_price": 18.4695,
+      "exit_price": 22.6953,
       "return_pct": 23.17,
       "days": 61,
       "exit_reason": "s_rebalance_exit",
@@ -17220,7 +17220,7 @@
           "report_date": "2024-11-21",
           "source_file": "2024-11-21_equity-research-levi-strauss-co.md",
           "target_price": 26.33,
-          "stated_upside_pct": 71.8822
+          "stated_upside_pct": 74.3472
         }
       ]
     },
@@ -18920,8 +18920,8 @@
       "name": "GLW",
       "entry_date": "2026-01-02",
       "exit_date": "2026-02-02",
-      "entry_price": 88.6086,
-      "exit_price": 102.8999,
+      "entry_price": 88.442,
+      "exit_price": 102.7066,
       "return_pct": 15.85,
       "days": 31,
       "exit_reason": "s_rebalance_exit",
@@ -18932,7 +18932,7 @@
           "report_date": "2025-10-23",
           "source_file": "2025-10-23_equity-research-corning-3.md",
           "target_price": 144.0,
-          "stated_upside_pct": 68.8989
+          "stated_upside_pct": 69.2169
         }
       ]
     },
@@ -18942,8 +18942,8 @@
       "name": "LLY",
       "entry_date": "2026-01-02",
       "exit_date": "2026-02-02",
-      "entry_price": 1072.7597,
-      "exit_price": 1034.0611,
+      "entry_price": 1071.2247,
+      "exit_price": 1032.5815,
       "return_pct": -3.84,
       "days": 31,
       "exit_reason": "s_rebalance_exit",
@@ -18954,14 +18954,14 @@
           "report_date": "2023-11-22",
           "source_file": "2023-11-22_equity-research-eli-lilly-co.md",
           "target_price": 745.2,
-          "stated_upside_pct": 27.4131
+          "stated_upside_pct": 27.5957
         },
         {
           "school": "yig",
           "report_date": "2024-09-28",
           "source_file": "2025-11-10_GLP-1, 지방아 내 몸에서 나가! (발간일 240928) YIG Research.md",
           "target_price": 1390.0,
-          "stated_upside_pct": 60.3398
+          "stated_upside_pct": 60.5696
         }
       ]
     },
@@ -19015,8 +19015,8 @@
       "name": "LEVI",
       "entry_date": "2026-01-02",
       "exit_date": "2026-02-02",
-      "entry_price": 20.5594,
-      "exit_price": 19.5522,
+      "entry_price": 20.2687,
+      "exit_price": 19.2757,
       "return_pct": -5.13,
       "days": 31,
       "exit_reason": "s_rebalance_exit",
@@ -19027,7 +19027,7 @@
           "report_date": "2024-11-21",
           "source_file": "2024-11-21_equity-research-levi-strauss-co.md",
           "target_price": 26.33,
-          "stated_upside_pct": 71.8822
+          "stated_upside_pct": 74.3472
         }
       ]
     },
@@ -19225,8 +19225,8 @@
       "name": "삼성바이오로직스",
       "entry_date": "2026-02-02",
       "exit_date": "2026-03-02",
-      "entry_price": 1745000.0,
-      "exit_price": 1778000.0,
+      "entry_price": 1731567.0,
+      "exit_price": 1764313.0,
       "return_pct": 1.28,
       "days": 28,
       "exit_reason": "s_rebalance_exit",
@@ -19244,7 +19244,7 @@
           "report_date": "2025-12-12",
           "source_file": "2025-12-12_STAR_삼성바이오로직스.md",
           "target_price": 2142000.0,
-          "stated_upside_pct": 26.5957
+          "stated_upside_pct": 27.5778
         }
       ]
     },
@@ -19567,8 +19567,8 @@
       "name": "GLW",
       "entry_date": "2026-03-02",
       "exit_date": "2026-04-01",
-      "entry_price": 153.2152,
-      "exit_price": 137.7888,
+      "entry_price": 152.9272,
+      "exit_price": 137.5299,
       "return_pct": -6.58,
       "days": 30,
       "exit_reason": "s_rebalance_exit",
@@ -19579,7 +19579,7 @@
           "report_date": "2025-10-23",
           "source_file": "2025-10-23_equity-research-corning-3.md",
           "target_price": 144.0,
-          "stated_upside_pct": 68.8989
+          "stated_upside_pct": 69.2169
         }
       ]
     },
@@ -19786,8 +19786,8 @@
       "name": "IRMD",
       "entry_date": "2026-03-02",
       "exit_date": "2026-04-01",
-      "entry_price": 101.7054,
-      "exit_price": 96.9064,
+      "entry_price": 101.472,
+      "exit_price": 96.6841,
       "return_pct": -1.02,
       "days": 30,
       "exit_reason": "s_rebalance_trim",
@@ -19798,7 +19798,7 @@
           "report_date": "2025-12-01",
           "source_file": "2025-12-01_equity-research-iradimed-corporation.md",
           "target_price": 146.0,
-          "stated_upside_pct": 59.6585
+          "stated_upside_pct": 60.0257
         }
       ]
     },
@@ -19844,8 +19844,8 @@
       "name": "LEVI",
       "entry_date": "2026-04-01",
       "exit_date": "2026-05-01",
-      "entry_price": 18.2897,
-      "exit_price": 22.13,
+      "entry_price": 18.0311,
+      "exit_price": 21.8171,
       "return_pct": 17.93,
       "days": 30,
       "exit_reason": "s_rebalance_trim",
@@ -19856,7 +19856,7 @@
           "report_date": "2024-11-21",
           "source_file": "2024-11-21_equity-research-levi-strauss-co.md",
           "target_price": 26.33,
-          "stated_upside_pct": 71.8822
+          "stated_upside_pct": 74.3472
         }
       ]
     },
@@ -19932,8 +19932,8 @@
       "name": "IRMD",
       "entry_date": "2026-03-02",
       "exit_date": "2026-05-01",
-      "entry_price": 101.7054,
-      "exit_price": 80.9732,
+      "entry_price": 101.472,
+      "exit_price": 80.7874,
       "return_pct": -18.91,
       "days": 60,
       "exit_reason": "s_rebalance_trim",
@@ -19944,7 +19944,7 @@
           "report_date": "2025-12-01",
           "source_file": "2025-12-01_equity-research-iradimed-corporation.md",
           "target_price": 146.0,
-          "stated_upside_pct": 59.6585
+          "stated_upside_pct": 60.0257
         }
       ]
     },
@@ -19954,8 +19954,8 @@
       "name": "SXT",
       "entry_date": "2026-04-01",
       "exit_date": "2026-05-01",
-      "entry_price": 88.2329,
-      "exit_price": 114.9399,
+      "entry_price": 87.9404,
+      "exit_price": 114.5589,
       "return_pct": 26.96,
       "days": 30,
       "exit_reason": "s_rebalance_trim",
@@ -19966,7 +19966,7 @@
           "report_date": "2025-12-01",
           "source_file": "2025-12-01_equity-research-sensient-technologies-corp.md",
           "target_price": 238.0,
-          "stated_upside_pct": 150.7724
+          "stated_upside_pct": 151.6066
         }
       ]
     },
@@ -20027,8 +20027,8 @@
       "name": "LEVI",
       "entry_date": "2026-04-01",
       "exit_date": "2026-06-01",
-      "entry_price": 18.2897,
-      "exit_price": 23.33,
+      "entry_price": 18.0311,
+      "exit_price": 23.0001,
       "return_pct": 27.09,
       "days": 61,
       "exit_reason": "s_rebalance_exit",
@@ -20039,7 +20039,7 @@
           "report_date": "2024-11-21",
           "source_file": "2024-11-21_equity-research-levi-strauss-co.md",
           "target_price": 26.33,
-          "stated_upside_pct": 71.8822
+          "stated_upside_pct": 74.3472
         }
       ]
     },
@@ -20202,8 +20202,8 @@
       "name": "FIX",
       "entry_date": "2026-06-01",
       "exit_date": "2026-07-01",
-      "entry_price": 1765.75,
-      "exit_price": 1935.58,
+      "entry_price": 1764.836,
+      "exit_price": 1934.578,
       "return_pct": 11.98,
       "days": 30,
       "exit_reason": "s_rebalance_exit",
@@ -20214,7 +20214,7 @@
           "report_date": "2026-05-29",
           "source_file": "2026-05-29_equity-research-comfort-systems-usa-inc.md",
           "target_price": 5326.0,
-          "stated_upside_pct": 191.3232
+          "stated_upside_pct": 191.4741
         }
       ]
     },
@@ -20609,8 +20609,8 @@
       "name": "IRMD",
       "entry_date": "2026-03-02",
       "exit_date": "2026-08-03",
-      "entry_price": 101.7054,
-      "exit_price": 92.95,
+      "entry_price": 101.472,
+      "exit_price": 92.7367,
       "return_pct": -8.65,
       "days": 154,
       "exit_reason": "s_rebalance_trim",
@@ -20621,7 +20621,7 @@
           "report_date": "2025-12-01",
           "source_file": "2025-12-01_equity-research-iradimed-corporation.md",
           "target_price": 146.0,
-          "stated_upside_pct": 59.6585
+          "stated_upside_pct": 60.0257
         }
       ]
     },
@@ -20631,9 +20631,9 @@
       "name": "SXT",
       "entry_date": "2026-04-01",
       "exit_date": "2026-08-03",
-      "entry_price": 88.2329,
+      "entry_price": 87.9404,
       "exit_price": 123.08,
-      "return_pct": 4.85,
+      "return_pct": 5.2,
       "days": 124,
       "exit_reason": "s_rebalance_trim",
       "entry_reason": "mincvar 월간 리밸런스 — 목표비중 10.9% 재조정 보유",
@@ -20643,7 +20643,7 @@
           "report_date": "2025-12-01",
           "source_file": "2025-12-01_equity-research-sensient-technologies-corp.md",
           "target_price": 238.0,
-          "stated_upside_pct": 150.7724
+          "stated_upside_pct": 151.6066
         }
       ]
     },
@@ -20677,7 +20677,7 @@
       "exit_date": "2026-09-01",
       "entry_price": 94400.0,
       "exit_price": 53500.0,
-      "return_pct": -42.41,
+      "return_pct": -42.09,
       "days": 92,
       "exit_reason": "s_rebalance_exit",
       "entry_reason": "mincvar 월간 리밸런스 — 목표비중 0.2% 재조정 보유",
@@ -20720,8 +20720,8 @@
       "entry_date": "2026-06-01",
       "exit_date": "2026-09-01",
       "entry_price": 114.775,
-      "exit_price": 82.28,
-      "return_pct": -27.53,
+      "exit_price": 82.34,
+      "return_pct": -27.48,
       "days": 92,
       "exit_reason": "s_rebalance_exit",
       "entry_reason": "mincvar 월간 리밸런스 — 목표비중 1.9% 재조정 보유",
@@ -20732,6 +20732,35 @@
           "source_file": "2025-10-23_equity-research-coreweave.md",
           "target_price": null,
           "stated_upside_pct": null
+        }
+      ]
+    },
+    {
+      "ticker": "LITE",
+      "market": "US",
+      "name": "LITE",
+      "entry_date": "2026-05-01",
+      "exit_date": "2026-09-01",
+      "entry_price": 913.0,
+      "exit_price": 901.04,
+      "return_pct": -3.35,
+      "days": 123,
+      "exit_reason": "s_rebalance_exit",
+      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 0.4% 재조정 보유",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2025-12-15",
+          "source_file": "2025-12-15_equity-research-lumentum-holdings-inc.md",
+          "target_price": 498.63,
+          "stated_upside_pct": 48.9826
+        },
+        {
+          "school": "kuvic",
+          "report_date": "2026-03-27",
+          "source_file": "2026-03-27_Lumentum Holdings - 루멘상스의 시대가 왔다.md",
+          "target_price": 1216.0,
+          "stated_upside_pct": 73.0394
         }
       ]
     },
@@ -20794,7 +20823,7 @@
       "exit_date": "2026-09-01",
       "entry_price": 108500.0,
       "exit_price": 150400.0,
-      "return_pct": 27.69,
+      "return_pct": 27.7,
       "days": 153,
       "exit_reason": "s_rebalance_trim",
       "entry_reason": "mincvar 월간 리밸런스 — 목표비중 3.4% 재조정 보유",
@@ -20866,6 +20895,35 @@
       ]
     },
     {
+      "ticker": "051360",
+      "market": "KR",
+      "name": "토비스",
+      "entry_date": "2026-08-03",
+      "exit_date": "2026-09-01",
+      "entry_price": 11350.0,
+      "exit_price": 11420.0,
+      "return_pct": 0.01,
+      "days": 29,
+      "exit_reason": "s_rebalance_trim",
+      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 1.3% 신규 편입 (18개월 유효 리포트 유니버스)",
+      "trigger_reports": [
+        {
+          "school": "kuvic",
+          "report_date": "2024-10-10",
+          "source_file": "2024-10-10_토비스 - 전장으로 777 잭팟.md",
+          "target_price": 31400.0,
+          "stated_upside_pct": 167.7582
+        },
+        {
+          "school": "star",
+          "report_date": "2025-08-31",
+          "source_file": "2025-08-31_STAR_토비스.md",
+          "target_price": 30200.0,
+          "stated_upside_pct": 185.7413
+        }
+      ]
+    },
+    {
       "ticker": "293940",
       "market": "KR",
       "name": "신한알파리츠",
@@ -20895,7 +20953,7 @@
       "exit_date": "2026-09-01",
       "entry_price": 38.23,
       "exit_price": 51.73,
-      "return_pct": 24.2,
+      "return_pct": 24.19,
       "days": 153,
       "exit_reason": "s_rebalance_trim",
       "entry_reason": "mincvar 월간 리밸런스 — 목표비중 10.9% 재조정 보유",
@@ -20910,43 +20968,14 @@
       ]
     },
     {
-      "ticker": "LITE",
-      "market": "US",
-      "name": "LITE",
-      "entry_date": "2026-05-01",
-      "exit_date": "2026-09-01",
-      "entry_price": 913.0,
-      "exit_price": 901.04,
-      "return_pct": -3.11,
-      "days": 123,
-      "exit_reason": "s_rebalance_trim",
-      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 0.4% 재조정 보유",
-      "trigger_reports": [
-        {
-          "school": "smic",
-          "report_date": "2025-12-15",
-          "source_file": "2025-12-15_equity-research-lumentum-holdings-inc.md",
-          "target_price": 498.63,
-          "stated_upside_pct": 48.9826
-        },
-        {
-          "school": "kuvic",
-          "report_date": "2026-03-27",
-          "source_file": "2026-03-27_Lumentum Holdings - 루멘상스의 시대가 왔다.md",
-          "target_price": 1216.0,
-          "stated_upside_pct": 73.0394
-        }
-      ]
-    },
-    {
       "ticker": "FIX",
       "market": "US",
       "name": "FIX",
       "entry_date": "2026-08-03",
       "exit_date": "2026-09-01",
-      "entry_price": 1674.3199,
+      "entry_price": 1673.4533,
       "exit_price": 1518.73,
-      "return_pct": -14.17,
+      "return_pct": -14.13,
       "days": 29,
       "exit_reason": "s_rebalance_trim",
       "entry_reason": "mincvar 월간 리밸런스 — 목표비중 1.5% 신규 편입 (18개월 유효 리포트 유니버스)",
@@ -20956,7 +20985,7 @@
           "report_date": "2026-05-29",
           "source_file": "2026-05-29_equity-research-comfort-systems-usa-inc.md",
           "target_price": 5326.0,
-          "stated_upside_pct": 191.3232
+          "stated_upside_pct": 191.4741
         }
       ]
     },
@@ -20971,7 +21000,7 @@
       "return_pct": 2.67,
       "days": 59,
       "exit_reason": "s_rebalance_exit",
-      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 1.1% 재조정 보유",
+      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 1.0% 재조정 보유",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -20990,71 +21019,6 @@
       ]
     },
     {
-      "ticker": "007340",
-      "market": "KR",
-      "name": "DN오토모티브",
-      "entry_date": "2026-09-01",
-      "exit_date": "2026-10-01",
-      "entry_price": 46800.0,
-      "exit_price": 48000.0,
-      "return_pct": 1.95,
-      "days": 30,
-      "exit_reason": "s_rebalance_exit",
-      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 0.7% 신규 편입 (18개월 유효 리포트 유니버스)",
-      "trigger_reports": [
-        {
-          "school": "star",
-          "report_date": "2023-02-16",
-          "source_file": "2023-02-16_STAR_DN오토모티브.md",
-          "target_price": 27887.017,
-          "stated_upside_pct": 103.5549
-        },
-        {
-          "school": "yig",
-          "report_date": "2026-04-14",
-          "source_file": "2026-04-14_DN오토모티브 (007340, KOSPI) - 우주, 방산, 반도체, 자동차 뒤엔 DN YIG Research.md",
-          "target_price": 60800.0,
-          "stated_upside_pct": 67.9558
-        }
-      ]
-    },
-    {
-      "ticker": "099190",
-      "market": "KR",
-      "name": "아이센스",
-      "entry_date": "2026-04-01",
-      "exit_date": "2026-10-01",
-      "entry_price": 19700.0,
-      "exit_price": 15960.0,
-      "return_pct": -15.84,
-      "days": 183,
-      "exit_reason": "s_rebalance_exit",
-      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 0.6% 재조정 보유",
-      "trigger_reports": [
-        {
-          "school": "star",
-          "report_date": "2026-03-14",
-          "source_file": "2026-03-14_STAR_아이센스.md",
-          "target_price": 35400.0,
-          "stated_upside_pct": 80.2444
-        },
-        {
-          "school": "yig",
-          "report_date": "2023-11-02",
-          "source_file": "2025-11-10_아이센스(099190, KQ), 우리 아이 센스가 달라졌어요 (발간일 231104) YIG Research.md",
-          "target_price": 40400.0,
-          "stated_upside_pct": 61.6
-        },
-        {
-          "school": "ewha",
-          "report_date": "2023-11-25",
-          "source_file": "2023-11-25_[231125] 아이센스(099190).md",
-          "target_price": 32200.0,
-          "stated_upside_pct": 37.6068
-        }
-      ]
-    },
-    {
       "ticker": "051360",
       "market": "KR",
       "name": "토비스",
@@ -21062,24 +21026,24 @@
       "exit_date": "2026-10-01",
       "entry_price": 11350.0,
       "exit_price": 11680.0,
-      "return_pct": 2.14,
+      "return_pct": 2.29,
       "days": 59,
       "exit_reason": "s_rebalance_exit",
-      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 1.7% 재조정 보유",
+      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 0.4% 재조정 보유",
       "trigger_reports": [
         {
           "school": "kuvic",
           "report_date": "2024-10-10",
           "source_file": "2024-10-10_토비스 - 전장으로 777 잭팟.md",
           "target_price": 31400.0,
-          "stated_upside_pct": 66.5782
+          "stated_upside_pct": 167.7582
         },
         {
           "school": "star",
           "report_date": "2025-08-31",
           "source_file": "2025-08-31_STAR_토비스.md",
           "target_price": 30200.0,
-          "stated_upside_pct": 77.7516
+          "stated_upside_pct": 185.7413
         }
       ]
     },
@@ -21106,35 +21070,6 @@
       ]
     },
     {
-      "ticker": "LITE",
-      "market": "US",
-      "name": "LITE",
-      "entry_date": "2026-05-01",
-      "exit_date": "2026-10-01",
-      "entry_price": 913.0,
-      "exit_price": 980.0,
-      "return_pct": 4.62,
-      "days": 153,
-      "exit_reason": "s_rebalance_exit",
-      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 0.4% 재조정 보유",
-      "trigger_reports": [
-        {
-          "school": "smic",
-          "report_date": "2025-12-15",
-          "source_file": "2025-12-15_equity-research-lumentum-holdings-inc.md",
-          "target_price": 498.63,
-          "stated_upside_pct": 48.9826
-        },
-        {
-          "school": "kuvic",
-          "report_date": "2026-03-27",
-          "source_file": "2026-03-27_Lumentum Holdings - 루멘상스의 시대가 왔다.md",
-          "target_price": 1216.0,
-          "stated_upside_pct": 73.0394
-        }
-      ]
-    },
-    {
       "ticker": "306200",
       "market": "KR",
       "name": "세아제강",
@@ -21144,8 +21079,8 @@
       "exit_price": 168400.0,
       "return_pct": 20.34,
       "days": 30,
-      "exit_reason": "s_rebalance_trim",
-      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 0.8% 신규 편입 (18개월 유효 리포트 유니버스)",
+      "exit_reason": "s_rebalance_exit",
+      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 0.4% 신규 편입 (18개월 유효 리포트 유니버스)",
       "trigger_reports": [
         {
           "school": "voera",
@@ -21164,6 +21099,130 @@
       ]
     },
     {
+      "ticker": "ESTA",
+      "market": "US",
+      "name": "ESTA",
+      "entry_date": "2026-07-01",
+      "exit_date": "2026-10-01",
+      "entry_price": 85.23,
+      "exit_price": 63.53,
+      "return_pct": -25.32,
+      "days": 92,
+      "exit_reason": "s_rebalance_exit",
+      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 1.8% 재조정 보유",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2025-12-01",
+          "source_file": "2025-12-01_equity-research-establishment-labs-holdings.md",
+          "target_price": 118.76,
+          "stated_upside_pct": 75.1881
+        }
+      ]
+    },
+    {
+      "ticker": "GLW",
+      "market": "US",
+      "name": "GLW",
+      "entry_date": "2026-09-01",
+      "exit_date": "2026-10-01",
+      "entry_price": 144.25,
+      "exit_price": 153.89,
+      "return_pct": 5.28,
+      "days": 30,
+      "exit_reason": "s_rebalance_trim",
+      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 2.2% 신규 편입 (18개월 유효 리포트 유니버스)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2025-10-23",
+          "source_file": "2025-10-23_equity-research-corning-3.md",
+          "target_price": 144.0,
+          "stated_upside_pct": 69.2169
+        }
+      ]
+    },
+    {
+      "ticker": "007340",
+      "market": "KR",
+      "name": "DN오토모티브",
+      "entry_date": "2026-09-01",
+      "exit_date": "2026-10-01",
+      "entry_price": 46800.0,
+      "exit_price": 48000.0,
+      "return_pct": 1.95,
+      "days": 30,
+      "exit_reason": "s_rebalance_trim",
+      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 1.1% 신규 편입 (18개월 유효 리포트 유니버스)",
+      "trigger_reports": [
+        {
+          "school": "star",
+          "report_date": "2023-02-16",
+          "source_file": "2023-02-16_STAR_DN오토모티브.md",
+          "target_price": 27887.017,
+          "stated_upside_pct": 103.5549
+        },
+        {
+          "school": "yig",
+          "report_date": "2026-04-14",
+          "source_file": "2026-04-14_DN오토모티브 (007340, KOSPI) - 우주, 방산, 반도체, 자동차 뒤엔 DN YIG Research.md",
+          "target_price": 60800.0,
+          "stated_upside_pct": 67.9558
+        }
+      ]
+    },
+    {
+      "ticker": "183300",
+      "market": "KR",
+      "name": "코미코",
+      "entry_date": "2026-09-01",
+      "exit_date": "2026-10-01",
+      "entry_price": 26200.0,
+      "exit_price": 33850.0,
+      "return_pct": 28.42,
+      "days": 30,
+      "exit_reason": "s_rebalance_trim",
+      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 1.3% 신규 편입 (18개월 유효 리포트 유니버스)",
+      "trigger_reports": [
+        {
+          "school": "star",
+          "report_date": "2025-08-31",
+          "source_file": "2025-08-31_STAR_코미코.md",
+          "target_price": 24463.805,
+          "stated_upside_pct": 45.2893
+        },
+        {
+          "school": "yig",
+          "report_date": "2025-09-24",
+          "source_file": "2025-11-11_코미코 (183300, KQ), 코미코 짱! High~ (발간일 250924) YIG Research.md",
+          "target_price": 28165.6883,
+          "stated_upside_pct": 39.6761
+        }
+      ]
+    },
+    {
+      "ticker": "DOCS",
+      "market": "US",
+      "name": "DOCS",
+      "entry_date": "2026-04-01",
+      "exit_date": "2026-10-01",
+      "entry_price": 23.31,
+      "exit_price": 28.91,
+      "return_pct": 12.33,
+      "days": 183,
+      "exit_reason": "s_rebalance_trim",
+      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 7.1% 재조정 보유",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2025-05-25",
+          "source_file": "2025-05-25_equity-research-doximity.md",
+          "target_price": 75.4,
+          "stated_upside_pct": 47.7852
+        }
+      ]
+    },
+    {
       "ticker": "049720",
       "market": "KR",
       "name": "고려신용정보",
@@ -21171,7 +21230,7 @@
       "exit_date": "2026-10-01",
       "entry_price": 9690.0,
       "exit_price": 9100.0,
-      "return_pct": -6.51,
+      "return_pct": -6.48,
       "days": 122,
       "exit_reason": "s_rebalance_trim",
       "entry_reason": "mincvar 월간 리밸런스 — 목표비중 15.0% 재조정 보유",
@@ -21186,24 +21245,24 @@
       ]
     },
     {
-      "ticker": "IMAX",
-      "market": "US",
-      "name": "IMAX",
-      "entry_date": "2026-04-01",
+      "ticker": "461300",
+      "market": "KR",
+      "name": "아이스크림미디어",
+      "entry_date": "2026-09-01",
       "exit_date": "2026-10-01",
-      "entry_price": 38.23,
-      "exit_price": 54.62,
-      "return_pct": 30.2,
-      "days": 183,
+      "entry_price": 19440.0,
+      "exit_price": 18310.0,
+      "return_pct": -6.38,
+      "days": 30,
       "exit_reason": "s_rebalance_trim",
-      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 6.0% 재조정 보유",
+      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 1.0% 신규 편입 (18개월 유효 리포트 유니버스)",
       "trigger_reports": [
         {
           "school": "smic",
-          "report_date": "2025-12-01",
-          "source_file": "2025-12-01_equity-research-imax-corp.md",
-          "target_price": 54.6,
-          "stated_upside_pct": 48.2085
+          "report_date": "2025-06-10",
+          "source_file": "2025-06-10_equity-research-아이스크림미디.md",
+          "target_price": 25700.0,
+          "stated_upside_pct": 37.8016
         }
       ]
     },
@@ -21213,63 +21272,19 @@
       "name": "IRMD",
       "entry_date": "2026-03-02",
       "exit_date": "2026-10-01",
-      "entry_price": 101.7054,
+      "entry_price": 101.472,
       "exit_price": 86.2,
-      "return_pct": -13.51,
+      "return_pct": -13.16,
       "days": 213,
       "exit_reason": "s_rebalance_trim",
-      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 8.3% 재조정 보유",
+      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 8.5% 재조정 보유",
       "trigger_reports": [
         {
           "school": "smic",
           "report_date": "2025-12-01",
           "source_file": "2025-12-01_equity-research-iradimed-corporation.md",
           "target_price": 146.0,
-          "stated_upside_pct": 59.6585
-        }
-      ]
-    },
-    {
-      "ticker": "SXT",
-      "market": "US",
-      "name": "SXT",
-      "entry_date": "2026-04-01",
-      "exit_date": "2026-10-01",
-      "entry_price": 88.2329,
-      "exit_price": 130.32,
-      "return_pct": 2.1,
-      "days": 183,
-      "exit_reason": "s_rebalance_trim",
-      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 13.6% 재조정 보유",
-      "trigger_reports": [
-        {
-          "school": "smic",
-          "report_date": "2025-12-01",
-          "source_file": "2025-12-01_equity-research-sensient-technologies-corp.md",
-          "target_price": 238.0,
-          "stated_upside_pct": 150.7724
-        }
-      ]
-    },
-    {
-      "ticker": "FIX",
-      "market": "US",
-      "name": "FIX",
-      "entry_date": "2026-08-03",
-      "exit_date": "2026-10-01",
-      "entry_price": 1674.3199,
-      "exit_price": 1658.0,
-      "return_pct": -6.97,
-      "days": 59,
-      "exit_reason": "s_rebalance_trim",
-      "entry_reason": "mincvar 월간 리밸런스 — 목표비중 1.1% 재조정 보유",
-      "trigger_reports": [
-        {
-          "school": "smic",
-          "report_date": "2026-05-29",
-          "source_file": "2026-05-29_equity-research-comfort-systems-usa-inc.md",
-          "target_price": 5326.0,
-          "stated_upside_pct": 191.3232
+          "stated_upside_pct": 60.0257
         }
       ]
     }

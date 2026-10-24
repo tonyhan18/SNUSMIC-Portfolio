@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T19:12:11+00:00",
+  "generated_at": "2026-10-24T08:56:52+00:00",
   "strategy_key": "Q_kangto_trend",
   "disclaimer": "These are backtested signals for research purposes only. They do NOT constitute investment advice. Past performance does not guarantee future results. All trading decisions and their consequences are solely your responsibility.",
   "disclaimer_ko": "이 데이터는 백테스트 시뮬레이션 결과이며 연구 목적으로만 제공됩니다. 투자 권유가 아닙니다. 과거 성과가 미래 수익을 보장하지 않습니다. 실매매로 인한 모든 손익의 책임은 전적으로 사용자에게 있습니다.",
@@ -2130,8 +2130,8 @@
       "name": "PYPL",
       "entry_date": "2021-06-21",
       "exit_date": "2021-07-30",
-      "entry_price": 280.8467,
-      "exit_price": 277.8388,
+      "entry_price": 280.1547,
+      "exit_price": 277.1542,
       "return_pct": -0.98,
       "days": 39,
       "exit_reason": "q_stop",
@@ -2142,7 +2142,7 @@
           "report_date": "2020-06-09",
           "source_file": "2020-06-09_Equity Research, PayPal Holdings, Inc.md",
           "target_price": 193.09,
-          "stated_upside_pct": 24.1631
+          "stated_upside_pct": 24.4698
         }
       ]
     },
@@ -2614,8 +2614,8 @@
       "name": "EQIX",
       "entry_date": "2021-06-04",
       "exit_date": "2021-09-28",
-      "entry_price": 706.4376,
-      "exit_price": 727.6282,
+      "entry_price": 703.0784,
+      "exit_price": 724.1681,
       "return_pct": 8.03,
       "days": 116,
       "exit_reason": "q_stop",
@@ -2626,7 +2626,7 @@
           "report_date": "2019-12-24",
           "source_file": "2019-12-24_Equity Research, Equinix.md",
           "target_price": 618.28,
-          "stated_upside_pct": 21.8257
+          "stated_upside_pct": 22.4078
         }
       ]
     },
@@ -4428,8 +4428,8 @@
       "name": "SBLK",
       "entry_date": "2022-05-24",
       "exit_date": "2022-06-09",
-      "entry_price": 21.8253,
-      "exit_price": 19.9351,
+      "entry_price": 20.7819,
+      "exit_price": 18.9821,
       "return_pct": -9.36,
       "days": 16,
       "exit_reason": "q_stop",
@@ -4440,7 +4440,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-star-bulk-carriers.md",
           "target_price": 37.8,
-          "stated_upside_pct": 239.1602
+          "stated_upside_pct": 256.1877
         }
       ]
     },
@@ -4800,8 +4800,8 @@
       "name": "WFG",
       "entry_date": "2022-07-20",
       "exit_date": "2022-09-02",
-      "entry_price": 90.319,
-      "exit_price": 82.3558,
+      "entry_price": 89.4998,
+      "exit_price": 81.6088,
       "return_pct": -5.92,
       "days": 44,
       "exit_reason": "q_stop",
@@ -4812,7 +4812,7 @@
           "report_date": "2021-05-31",
           "source_file": "2021-05-31_equity-research-west-fraser-timber-co-ltd.md",
           "target_price": 137.0,
-          "stated_upside_pct": 90.115
+          "stated_upside_pct": 91.8551
         }
       ]
     },
@@ -6084,8 +6084,8 @@
       "name": "에코프로비엠",
       "entry_date": "2023-02-14",
       "exit_date": "2023-03-03",
-      "entry_price": 141900.0,
-      "exit_price": 175956.0,
+      "entry_price": 139666.0,
+      "exit_price": 173185.84,
       "return_pct": 23.26,
       "days": 17,
       "exit_reason": "q_half_+3R",
@@ -6096,7 +6096,7 @@
           "report_date": "2022-08-13",
           "source_file": "2022-08-13_[220813] 에코프로비엠(247540).md",
           "target_price": 181600.0,
-          "stated_upside_pct": 53.2489
+          "stated_upside_pct": 55.7007
         }
       ]
     },
@@ -6106,8 +6106,8 @@
       "name": "효성화학",
       "entry_date": "2023-02-23",
       "exit_date": "2023-03-07",
-      "entry_price": 158500.0,
-      "exit_price": 145000.0,
+      "entry_price": 317000.0,
+      "exit_price": 290000.0,
       "return_pct": -9.07,
       "days": 12,
       "exit_reason": "q_stop",
@@ -6117,8 +6117,8 @@
           "school": "ewha",
           "report_date": "2022-02-12",
           "source_file": "2022-02-12_[220212] 효성화학(298000).md",
-          "target_price": 408000.0,
-          "stated_upside_pct": 40.9326
+          "target_price": null,
+          "stated_upside_pct": null
         }
       ]
     },
@@ -6194,9 +6194,9 @@
       "name": "에코프로비엠",
       "entry_date": "2023-02-14",
       "exit_date": "2023-03-13",
-      "entry_price": 141900.0,
-      "exit_price": 190400.0,
-      "return_pct": 33.38,
+      "entry_price": 139666.0,
+      "exit_price": 187402.0,
+      "return_pct": 33.37,
       "days": 27,
       "exit_reason": "q_stop",
       "entry_reason": "깡토 추세추종: RS 88 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
@@ -6206,7 +6206,7 @@
           "report_date": "2022-08-13",
           "source_file": "2022-08-13_[220813] 에코프로비엠(247540).md",
           "target_price": 181600.0,
-          "stated_upside_pct": 53.2489
+          "stated_upside_pct": 55.7007
         }
       ]
     },
@@ -6442,8 +6442,8 @@
       "name": "에코프로비엠",
       "entry_date": "2023-03-24",
       "exit_date": "2023-03-29",
-      "entry_price": 245000.0,
-      "exit_price": 222500.0,
+      "entry_price": 241143.0,
+      "exit_price": 218997.0,
       "return_pct": -9.73,
       "days": 5,
       "exit_reason": "q_stop",
@@ -6454,7 +6454,7 @@
           "report_date": "2022-08-13",
           "source_file": "2022-08-13_[220813] 에코프로비엠(247540).md",
           "target_price": 181600.0,
-          "stated_upside_pct": 53.2489
+          "stated_upside_pct": 55.7007
         }
       ]
     },
@@ -7671,8 +7671,8 @@
       "name": "에코프로비엠",
       "entry_date": "2023-07-24",
       "exit_date": "2023-07-25",
-      "entry_price": 385000.0,
-      "exit_price": 477400.0,
+      "entry_price": 378939.0,
+      "exit_price": 469884.36,
       "return_pct": 23.26,
       "days": 1,
       "exit_reason": "q_half_+3R",
@@ -7683,7 +7683,7 @@
           "report_date": "2022-08-13",
           "source_file": "2022-08-13_[220813] 에코프로비엠(247540).md",
           "target_price": 181600.0,
-          "stated_upside_pct": 53.2489
+          "stated_upside_pct": 55.7007
         }
       ]
     },
@@ -7846,8 +7846,8 @@
       "name": "에코프로비엠",
       "entry_date": "2023-07-24",
       "exit_date": "2023-07-28",
-      "entry_price": 385000.0,
-      "exit_price": 367000.0,
+      "entry_price": 378939.0,
+      "exit_price": 361223.0,
       "return_pct": -5.25,
       "days": 4,
       "exit_reason": "q_stop",
@@ -7858,7 +7858,7 @@
           "report_date": "2022-08-13",
           "source_file": "2022-08-13_[220813] 에코프로비엠(247540).md",
           "target_price": 181600.0,
-          "stated_upside_pct": 53.2489
+          "stated_upside_pct": 55.7007
         }
       ]
     },
@@ -9106,8 +9106,8 @@
       "name": "아이씨에이치",
       "entry_date": "2023-11-23",
       "exit_date": "2023-12-22",
-      "entry_price": 4981.0,
-      "exit_price": 4631.0,
+      "entry_price": 24905.0,
+      "exit_price": 23155.0,
       "return_pct": -7.58,
       "days": 29,
       "exit_reason": "q_stop",
@@ -9117,8 +9117,8 @@
           "school": "smic",
           "report_date": "2022-10-13",
           "source_file": "2022-10-13_equity-research-아이씨에이치.md",
-          "target_price": 31100.0,
-          "stated_upside_pct": 282.017
+          "target_price": null,
+          "stated_upside_pct": null
         }
       ]
     },
@@ -9201,8 +9201,8 @@
       "name": "STNG",
       "entry_date": "2023-09-15",
       "exit_date": "2024-01-04",
-      "entry_price": 49.1418,
-      "exit_price": 60.9358,
+      "entry_price": 48.8633,
+      "exit_price": 60.5905,
       "return_pct": 21.63,
       "days": 111,
       "exit_reason": "q_half_+3R",
@@ -9213,7 +9213,7 @@
           "report_date": "2022-05-25",
           "source_file": "2022-05-25_equity-research-scorpio-tankers-inc.md",
           "target_price": 44.66,
-          "stated_upside_pct": 54.5657
+          "stated_upside_pct": 55.4466
         }
       ]
     },
@@ -9746,8 +9746,8 @@
       "name": "STNG",
       "entry_date": "2023-09-15",
       "exit_date": "2024-02-07",
-      "entry_price": 49.1418,
-      "exit_price": 61.1073,
+      "entry_price": 48.8633,
+      "exit_price": 60.7611,
       "return_pct": 23.58,
       "days": 145,
       "exit_reason": "q_stop",
@@ -9758,7 +9758,7 @@
           "report_date": "2022-05-25",
           "source_file": "2022-05-25_equity-research-scorpio-tankers-inc.md",
           "target_price": 44.66,
-          "stated_upside_pct": 54.5657
+          "stated_upside_pct": 55.4466
         }
       ]
     },
@@ -10139,8 +10139,8 @@
       "name": "삼성바이오로직스",
       "entry_date": "2024-01-03",
       "exit_date": "2024-03-04",
-      "entry_price": 1150904.0,
-      "exit_price": 1143545.0,
+      "entry_price": 1142044.0,
+      "exit_price": 1134742.0,
       "return_pct": -1.23,
       "days": 61,
       "exit_reason": "q_stop",
@@ -10158,7 +10158,7 @@
           "report_date": "2023-08-20",
           "source_file": "2023-08-20_STAR_삼성바이오로직스.md",
           "target_price": 1307000.0,
-          "stated_upside_pct": 15.1832
+          "stated_upside_pct": 16.0768
         }
       ]
     },
@@ -10378,8 +10378,8 @@
       "name": "아이씨에이치",
       "entry_date": "2024-02-29",
       "exit_date": "2024-03-18",
-      "entry_price": 5512.0,
-      "exit_price": 5080.0,
+      "entry_price": 27560.0,
+      "exit_price": 25400.0,
       "return_pct": -8.39,
       "days": 18,
       "exit_reason": "q_stop",
@@ -10389,8 +10389,8 @@
           "school": "smic",
           "report_date": "2022-10-13",
           "source_file": "2022-10-13_equity-research-아이씨에이치.md",
-          "target_price": 31100.0,
-          "stated_upside_pct": 282.017
+          "target_price": null,
+          "stated_upside_pct": null
         }
       ]
     },
@@ -12133,8 +12133,8 @@
       "name": "BAC",
       "entry_date": "2024-06-03",
       "exit_date": "2024-08-02",
-      "entry_price": 38.0178,
-      "exit_price": 36.3002,
+      "entry_price": 37.8248,
+      "exit_price": 36.116,
       "return_pct": -5.99,
       "days": 60,
       "exit_reason": "q_stop",
@@ -12145,7 +12145,7 @@
           "report_date": "2023-05-25",
           "source_file": "2023-05-25_equity-research-bank-of-america-corp.md",
           "target_price": 33.17,
-          "stated_upside_pct": 27.945
+          "stated_upside_pct": 28.5977
         }
       ]
     },
@@ -12562,8 +12562,8 @@
       "name": "티앤엘",
       "entry_date": "2024-08-20",
       "exit_date": "2024-09-05",
-      "entry_price": 74000.0,
-      "exit_price": 66600.0,
+      "entry_price": 37451.0,
+      "exit_price": 33706.0,
       "return_pct": -10.54,
       "days": 16,
       "exit_reason": "q_stop",
@@ -12574,21 +12574,21 @@
           "report_date": "2023-04-22",
           "source_file": "2023-04-22_STAR_티앤엘.md",
           "target_price": 63300.0,
-          "stated_upside_pct": 38.6637
+          "stated_upside_pct": 173.9904
         },
         {
           "school": "voera",
           "report_date": "2023-05-03",
           "source_file": "undated_[BUY].md",
-          "target_price": 105000.0,
-          "stated_upside_pct": 118.75
+          "target_price": null,
+          "stated_upside_pct": null
         },
         {
           "school": "kuvic",
           "report_date": "2023-11-20",
           "source_file": "2023-11-20_티앤엘 - Mighty Patch is getting Mighter.md",
           "target_price": 59100.0,
-          "stated_upside_pct": 40.38
+          "stated_upside_pct": 177.3867
         }
       ]
     },
@@ -12707,8 +12707,8 @@
       "name": "삼성바이오로직스",
       "entry_date": "2024-07-25",
       "exit_date": "2024-09-23",
-      "entry_price": 1295135.0,
-      "exit_price": 1605967.4,
+      "entry_price": 1285165.0,
+      "exit_price": 1593604.6,
       "return_pct": 23.26,
       "days": 60,
       "exit_reason": "q_half_+3R",
@@ -12726,7 +12726,7 @@
           "report_date": "2023-08-20",
           "source_file": "2023-08-20_STAR_삼성바이오로직스.md",
           "target_price": 1307000.0,
-          "stated_upside_pct": 15.1832
+          "stated_upside_pct": 16.0768
         }
       ]
     },
@@ -12787,8 +12787,8 @@
       "name": "삼성바이오로직스",
       "entry_date": "2024-07-25",
       "exit_date": "2024-09-30",
-      "entry_price": 1295135.0,
-      "exit_price": 1448196.0,
+      "entry_price": 1285165.0,
+      "exit_price": 1437048.0,
       "return_pct": 11.15,
       "days": 67,
       "exit_reason": "q_stop",
@@ -12806,7 +12806,7 @@
           "report_date": "2023-08-20",
           "source_file": "2023-08-20_STAR_삼성바이오로직스.md",
           "target_price": 1307000.0,
-          "stated_upside_pct": 15.1832
+          "stated_upside_pct": 16.0768
         }
       ]
     },
@@ -13694,8 +13694,8 @@
       "name": "BAC",
       "entry_date": "2024-10-16",
       "exit_date": "2024-12-19",
-      "entry_price": 40.5848,
-      "exit_price": 42.5122,
+      "entry_price": 40.3788,
+      "exit_price": 42.2964,
       "return_pct": 10.87,
       "days": 64,
       "exit_reason": "q_stop",
@@ -13706,7 +13706,7 @@
           "report_date": "2023-05-25",
           "source_file": "2023-05-25_equity-research-bank-of-america-corp.md",
           "target_price": 33.17,
-          "stated_upside_pct": 27.945
+          "stated_upside_pct": 28.5977
         }
       ]
     },
@@ -14498,8 +14498,8 @@
       "name": "티앤엘",
       "entry_date": "2025-01-14",
       "exit_date": "2025-02-26",
-      "entry_price": 75800.0,
-      "exit_price": 74400.0,
+      "entry_price": 38362.0,
+      "exit_price": 37653.0,
       "return_pct": -2.44,
       "days": 43,
       "exit_reason": "q_stop",
@@ -14510,28 +14510,28 @@
           "report_date": "2023-04-22",
           "source_file": "2023-04-22_STAR_티앤엘.md",
           "target_price": 63300.0,
-          "stated_upside_pct": 38.6637
+          "stated_upside_pct": 173.9904
         },
         {
           "school": "voera",
           "report_date": "2023-05-03",
           "source_file": "undated_[BUY].md",
-          "target_price": 105000.0,
-          "stated_upside_pct": 118.75
+          "target_price": null,
+          "stated_upside_pct": null
         },
         {
           "school": "kuvic",
           "report_date": "2023-11-20",
           "source_file": "2023-11-20_티앤엘 - Mighty Patch is getting Mighter.md",
           "target_price": 59100.0,
-          "stated_upside_pct": 40.38
+          "stated_upside_pct": 177.3867
         },
         {
           "school": "ewha",
           "report_date": "2024-08-23",
           "source_file": "2024-08-23_[240823] 티앤엘(340570).md",
           "target_price": 113900.0,
-          "stated_upside_pct": 53.504
+          "stated_upside_pct": 203.3127
         }
       ]
     },
@@ -14773,8 +14773,8 @@
       "name": "삼성바이오로직스",
       "entry_date": "2025-02-10",
       "exit_date": "2025-03-14",
-      "entry_price": 1707223.0,
-      "exit_price": 1549746.0,
+      "entry_price": 1694081.0,
+      "exit_price": 1537816.0,
       "return_pct": -9.77,
       "days": 32,
       "exit_reason": "q_stop",
@@ -14792,7 +14792,7 @@
           "report_date": "2023-08-20",
           "source_file": "2023-08-20_STAR_삼성바이오로직스.md",
           "target_price": 1307000.0,
-          "stated_upside_pct": 15.1832
+          "stated_upside_pct": 16.0768
         }
       ]
     },
@@ -15027,8 +15027,8 @@
       "name": "티앤엘",
       "entry_date": "2025-03-19",
       "exit_date": "2025-04-01",
-      "entry_price": 83300.0,
-      "exit_price": 75600.0,
+      "entry_price": 42157.0,
+      "exit_price": 38260.0,
       "return_pct": -9.79,
       "days": 13,
       "exit_reason": "q_stop",
@@ -15039,28 +15039,28 @@
           "report_date": "2025-03-10",
           "source_file": "2025-03-10_STAR_티앤엘.md",
           "target_price": 114600.0,
-          "stated_upside_pct": 43.25
+          "stated_upside_pct": 183.0538
         },
         {
           "school": "voera",
           "report_date": "2023-05-03",
           "source_file": "undated_[BUY].md",
-          "target_price": 105000.0,
-          "stated_upside_pct": 118.75
+          "target_price": null,
+          "stated_upside_pct": null
         },
         {
           "school": "kuvic",
           "report_date": "2023-11-20",
           "source_file": "2023-11-20_티앤엘 - Mighty Patch is getting Mighter.md",
           "target_price": 59100.0,
-          "stated_upside_pct": 40.38
+          "stated_upside_pct": 177.3867
         },
         {
           "school": "ewha",
           "report_date": "2024-08-23",
           "source_file": "2024-08-23_[240823] 티앤엘(340570).md",
           "target_price": 113900.0,
-          "stated_upside_pct": 53.504
+          "stated_upside_pct": 203.3127
         }
       ]
     },
@@ -15070,8 +15070,8 @@
       "name": "코미코",
       "entry_date": "2025-03-14",
       "exit_date": "2025-04-02",
-      "entry_price": 25975.0,
-      "exit_price": 28521.0,
+      "entry_price": 10409.0,
+      "exit_price": 11429.0,
       "return_pct": 9.14,
       "days": 19,
       "exit_reason": "q_stop",
@@ -15081,8 +15081,8 @@
           "school": "star",
           "report_date": "2024-01-06",
           "source_file": "2024-01-06_STAR_코미코.md",
-          "target_price": 75100.0,
-          "stated_upside_pct": 130.7574
+          "target_price": 16944.2751,
+          "stated_upside_pct": 29.9308
         }
       ]
     },
@@ -16142,8 +16142,8 @@
       "name": "코미코",
       "entry_date": "2025-04-16",
       "exit_date": "2025-06-25",
-      "entry_price": 30304.0,
-      "exit_price": 37576.96,
+      "entry_price": 12143.0,
+      "exit_price": 15057.32,
       "return_pct": 23.26,
       "days": 70,
       "exit_reason": "q_half_+3R",
@@ -16153,8 +16153,8 @@
           "school": "star",
           "report_date": "2024-01-06",
           "source_file": "2024-01-06_STAR_코미코.md",
-          "target_price": 75100.0,
-          "stated_upside_pct": 130.7574
+          "target_price": 16944.2751,
+          "stated_upside_pct": 29.9308
         }
       ]
     },
@@ -16446,8 +16446,8 @@
       "name": "코미코",
       "entry_date": "2025-04-16",
       "exit_date": "2025-07-08",
-      "entry_price": 30304.0,
-      "exit_price": 33767.0,
+      "entry_price": 12143.0,
+      "exit_price": 13531.0,
       "return_pct": 10.76,
       "days": 83,
       "exit_reason": "q_stop",
@@ -16457,8 +16457,8 @@
           "school": "star",
           "report_date": "2024-01-06",
           "source_file": "2024-01-06_STAR_코미코.md",
-          "target_price": 75100.0,
-          "stated_upside_pct": 130.7574
+          "target_price": 16944.2751,
+          "stated_upside_pct": 29.9308
         }
       ]
     },
@@ -18524,8 +18524,8 @@
       "name": "코미코",
       "entry_date": "2025-10-21",
       "exit_date": "2025-10-29",
-      "entry_price": 63155.0,
-      "exit_price": 58367.0,
+      "entry_price": 25308.0,
+      "exit_price": 23389.0,
       "return_pct": -8.14,
       "days": 8,
       "exit_reason": "q_stop",
@@ -18535,15 +18535,15 @@
           "school": "star",
           "report_date": "2025-08-31",
           "source_file": "2025-08-31_STAR_코미코.md",
-          "target_price": 87900.0,
-          "stated_upside_pct": 109.1961
+          "target_price": 24463.805,
+          "stated_upside_pct": 45.2893
         },
         {
           "school": "yig",
           "report_date": "2025-09-24",
           "source_file": "2025-11-11_코미코 (183300, KQ), 코미코 짱! High~ (발간일 250924) YIG Research.md",
-          "target_price": 138000.0,
-          "stated_upside_pct": 174.2448
+          "target_price": 28165.6883,
+          "stated_upside_pct": 39.6761
         }
       ]
     },
@@ -18873,8 +18873,8 @@
       "name": "티엘비",
       "entry_date": "2025-11-12",
       "exit_date": "2025-11-17",
-      "entry_price": 67034.0,
-      "exit_price": 62009.0,
+      "entry_price": 33708.0,
+      "exit_price": 31181.0,
       "return_pct": -8.05,
       "days": 5,
       "exit_reason": "q_stop",
@@ -19133,8 +19133,8 @@
       "name": "GLW",
       "entry_date": "2025-10-28",
       "exit_date": "2025-12-16",
-      "entry_price": 83.7385,
-      "exit_price": 87.2233,
+      "entry_price": 83.5811,
+      "exit_price": 87.0593,
       "return_pct": 6.18,
       "days": 49,
       "exit_reason": "q_stop",
@@ -19145,7 +19145,7 @@
           "report_date": "2025-10-23",
           "source_file": "2025-10-23_equity-research-corning-3.md",
           "target_price": 144.0,
-          "stated_upside_pct": 68.8989
+          "stated_upside_pct": 69.2169
         }
       ]
     },
@@ -19278,8 +19278,8 @@
       "name": "엘앤씨바이오",
       "entry_date": "2025-12-17",
       "exit_date": "2025-12-24",
-      "entry_price": 72500.0,
-      "exit_price": 64000.0,
+      "entry_price": 70217.0,
+      "exit_price": 61985.0,
       "return_pct": -12.25,
       "days": 7,
       "exit_reason": "q_stop",
@@ -19290,7 +19290,7 @@
           "report_date": "2025-11-25",
           "source_file": "2025-11-25_[251125] (KEYSS 대회) 엘앤씨바이오(290650).md",
           "target_price": 82900.0,
-          "stated_upside_pct": 54.9533
+          "stated_upside_pct": 59.9923
         }
       ]
     },
@@ -21423,8 +21423,8 @@
       "name": "티엘비",
       "entry_date": "2026-03-20",
       "exit_date": "2026-03-31",
-      "entry_price": 74904.0,
-      "exit_price": 60207.0,
+      "entry_price": 37666.0,
+      "exit_price": 30275.0,
       "return_pct": -20.1,
       "days": 11,
       "exit_reason": "q_stop",
@@ -22356,8 +22356,8 @@
       "name": "코미코",
       "entry_date": "2026-05-14",
       "exit_date": "2026-05-18",
-      "entry_price": 94936.0,
-      "exit_price": 76397.0,
+      "entry_price": 38044.0,
+      "exit_price": 30614.0,
       "return_pct": -20.01,
       "days": 4,
       "exit_reason": "q_stop",
@@ -22367,15 +22367,15 @@
           "school": "star",
           "report_date": "2025-08-31",
           "source_file": "2025-08-31_STAR_코미코.md",
-          "target_price": 87900.0,
-          "stated_upside_pct": 109.1961
+          "target_price": 24463.805,
+          "stated_upside_pct": 45.2893
         },
         {
           "school": "yig",
           "report_date": "2025-09-24",
           "source_file": "2025-11-11_코미코 (183300, KQ), 코미코 짱! High~ (발간일 250924) YIG Research.md",
-          "target_price": 138000.0,
-          "stated_upside_pct": 174.2448
+          "target_price": 28165.6883,
+          "stated_upside_pct": 39.6761
         }
       ]
     },
@@ -22385,8 +22385,8 @@
       "name": "GLW",
       "entry_date": "2026-05-08",
       "exit_date": "2026-05-19",
-      "entry_price": 186.9235,
-      "exit_price": 173.564,
+      "entry_price": 186.5722,
+      "exit_price": 173.2378,
       "return_pct": -5.32,
       "days": 11,
       "exit_reason": "q_stop",
@@ -22397,7 +22397,7 @@
           "report_date": "2025-10-23",
           "source_file": "2025-10-23_equity-research-corning-3.md",
           "target_price": 144.0,
-          "stated_upside_pct": 68.8989
+          "stated_upside_pct": 69.2169
         }
       ]
     },
@@ -23319,8 +23319,8 @@
       "name": "코미코",
       "entry_date": "2026-06-12",
       "exit_date": "2026-06-16",
-      "entry_price": 133600.0,
-      "exit_price": 111400.0,
+      "entry_price": 53538.0,
+      "exit_price": 44641.0,
       "return_pct": -17.12,
       "days": 4,
       "exit_reason": "q_stop",
@@ -23330,15 +23330,15 @@
           "school": "star",
           "report_date": "2025-08-31",
           "source_file": "2025-08-31_STAR_코미코.md",
-          "target_price": 87900.0,
-          "stated_upside_pct": 109.1961
+          "target_price": 24463.805,
+          "stated_upside_pct": 45.2893
         },
         {
           "school": "yig",
           "report_date": "2025-09-24",
           "source_file": "2025-11-11_코미코 (183300, KQ), 코미코 짱! High~ (발간일 250924) YIG Research.md",
-          "target_price": 138000.0,
-          "stated_upside_pct": 174.2448
+          "target_price": 28165.6883,
+          "stated_upside_pct": 39.6761
         }
       ]
     },
@@ -23551,8 +23551,8 @@
       "name": "GLW",
       "entry_date": "2026-06-26",
       "exit_date": "2026-07-02",
-      "entry_price": 224.43,
-      "exit_price": 223.89,
+      "entry_price": 224.0082,
+      "exit_price": 223.4692,
       "return_pct": -0.5,
       "days": 6,
       "exit_reason": "q_stop",
@@ -23563,7 +23563,7 @@
           "report_date": "2025-10-23",
           "source_file": "2025-10-23_equity-research-corning-3.md",
           "target_price": 144.0,
-          "stated_upside_pct": 68.8989
+          "stated_upside_pct": 69.2169
         }
       ]
     },
@@ -23824,7 +23824,7 @@
       "return_pct": -8.46,
       "days": 8,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 77 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 76 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "star",
@@ -23932,28 +23932,28 @@
           "report_date": "2025-03-10",
           "source_file": "2025-03-10_STAR_티앤엘.md",
           "target_price": 114600.0,
-          "stated_upside_pct": 43.25
+          "stated_upside_pct": 183.0538
         },
         {
           "school": "voera",
           "report_date": "2023-05-03",
           "source_file": "undated_[BUY].md",
-          "target_price": 105000.0,
-          "stated_upside_pct": 118.75
+          "target_price": null,
+          "stated_upside_pct": null
         },
         {
           "school": "kuvic",
           "report_date": "2023-11-20",
           "source_file": "2023-11-20_티앤엘 - Mighty Patch is getting Mighter.md",
           "target_price": 59100.0,
-          "stated_upside_pct": 40.38
+          "stated_upside_pct": 177.3867
         },
         {
           "school": "ewha",
           "report_date": "2024-08-23",
           "source_file": "2024-08-23_[240823] 티앤엘(340570).md",
           "target_price": 113900.0,
-          "stated_upside_pct": 53.504
+          "stated_upside_pct": 203.3127
         }
       ]
     },
@@ -23968,7 +23968,7 @@
       "return_pct": -4.76,
       "days": 1,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 83 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 82 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -24108,11 +24108,11 @@
       "entry_date": "2026-08-21",
       "exit_date": "2026-08-31",
       "entry_price": 65.6,
-      "exit_price": 62.25,
-      "return_pct": -7.24,
+      "exit_price": 62.365,
+      "return_pct": -6.43,
       "days": 10,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 82 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 81 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -24134,7 +24134,7 @@
       "return_pct": 23.26,
       "days": 18,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 92 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 93 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "yig",
@@ -24297,6 +24297,63 @@
       ]
     },
     {
+      "ticker": "278470",
+      "market": "KR",
+      "name": "에이피알",
+      "entry_date": "2026-08-26",
+      "exit_date": "2026-09-04",
+      "entry_price": 444500.0,
+      "exit_price": 407500.0,
+      "return_pct": -8.87,
+      "days": 9,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 91 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2024-05-09",
+          "source_file": "2024-05-09_equity-research-에이피알.md",
+          "target_price": 89212.1212,
+          "stated_upside_pct": 39.3939
+        },
+        {
+          "school": "star",
+          "report_date": "2025-12-12",
+          "source_file": "2025-12-12_STAR_에이피알.md",
+          "target_price": 318500.0,
+          "stated_upside_pct": 28.6869
+        },
+        {
+          "school": "yig",
+          "report_date": "2025-02-07",
+          "source_file": "2025-11-11_에이피알 (278470, KS), “이제는 화장품도 장비발” (발간일 250207) YIG Research.md",
+          "target_price": 68800.0,
+          "stated_upside_pct": 38.9899
+        },
+        {
+          "school": "ewha",
+          "report_date": "2025-04-05",
+          "source_file": "2025-04-04_[250404] 에이피알(278470).md",
+          "target_price": 100500.0,
+          "stated_upside_pct": 56.2986
+        },
+        {
+          "school": "kuvic",
+          "report_date": "2025-05-15",
+          "source_file": "2025-05-15_에이피알 - (A)안 (P)팔 (R)릴 이유가 없다.md",
+          "target_price": null,
+          "stated_upside_pct": 32.0
+        },
+        {
+          "school": "voera",
+          "report_date": "2025-11-25",
+          "source_file": "undated_[BUY] 미국이 감탄하고 전세계가 부러워하는, APR.md",
+          "target_price": 362500.0,
+          "stated_upside_pct": 44.7106
+        }
+      ]
+    },
+    {
       "ticker": "472850",
       "market": "KR",
       "name": "폰드그룹",
@@ -24372,7 +24429,7 @@
       "return_pct": 8.67,
       "days": 25,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 92 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 93 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "yig",
@@ -24401,7 +24458,7 @@
       "return_pct": -11.23,
       "days": 7,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 74 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 73 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "yig",
@@ -24658,17 +24715,46 @@
       ]
     },
     {
+      "ticker": "089600",
+      "market": "KR",
+      "name": "KT나스미디어",
+      "entry_date": "2026-08-26",
+      "exit_date": "2026-10-06",
+      "entry_price": 13180.0,
+      "exit_price": 12100.0,
+      "return_pct": -8.74,
+      "days": 41,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 75 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2022-10-13",
+          "source_file": "2022-10-13_equity-research-나스미디어.md",
+          "target_price": 45500.0,
+          "stated_upside_pct": 59.9634
+        },
+        {
+          "school": "yig",
+          "report_date": "2025-05-08",
+          "source_file": "2025-11-11_KT나스미디어 (089600, KQ), 광고 '건너뛰기' 불가능 (발간일 250508) YIG Research.md",
+          "target_price": 21550.0,
+          "stated_upside_pct": 42.8098
+        }
+      ]
+    },
+    {
       "ticker": "TEM",
       "market": "US",
       "name": "TEM",
-      "entry_date": "2026-09-29",
-      "exit_date": "2026-10-02",
-      "entry_price": 85.73,
-      "exit_price": 77.36,
-      "return_pct": -10.24,
-      "days": 3,
+      "entry_date": "2026-09-18",
+      "exit_date": "2026-10-07",
+      "entry_price": 81.4,
+      "exit_price": 70.1,
+      "return_pct": -16.87,
+      "days": 19,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 89 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 87 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -24676,6 +24762,655 @@
           "source_file": "2025-05-25_equity-research-tempus-ai-inc.md",
           "target_price": 228.5,
           "stated_upside_pct": 265.2494
+        }
+      ]
+    },
+    {
+      "ticker": "100840",
+      "market": "KR",
+      "name": "SNT에너지",
+      "entry_date": "2026-09-23",
+      "exit_date": "2026-10-07",
+      "entry_price": 37900.0,
+      "exit_price": 34800.0,
+      "return_pct": -8.73,
+      "days": 14,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 64 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2022-12-08",
+          "source_file": "2022-12-08_equity-research-snt에너지.md",
+          "target_price": 11361.5536,
+          "stated_upside_pct": 55.3611
+        },
+        {
+          "school": "star",
+          "report_date": "2023-06-12",
+          "source_file": "2023-06-12_STAR_SNT에너지.md",
+          "target_price": 11425.1172,
+          "stated_upside_pct": 45.7471
+        },
+        {
+          "school": "yig",
+          "report_date": "2025-04-11",
+          "source_file": "2025-11-11_SNT에너지 (100840, KS), SNT 에너지, YOUR 에너지! (발간일 250411) YIG Research.md",
+          "target_price": 47000.0,
+          "stated_upside_pct": 39.0533
+        }
+      ]
+    },
+    {
+      "ticker": "036930",
+      "market": "KR",
+      "name": "주성엔지니어링",
+      "entry_date": "2026-10-07",
+      "exit_date": "2026-10-08",
+      "entry_price": 276500.0,
+      "exit_price": 252500.0,
+      "return_pct": -9.23,
+      "days": 1,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 97 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2021-11-03",
+          "source_file": "2021-11-03_equity-research-주성엔지니어링.md",
+          "target_price": 26700.0,
+          "stated_upside_pct": 135.2423
+        },
+        {
+          "school": "star",
+          "report_date": "2022-04-01",
+          "source_file": "2022-04-01_STAR_주성엔지니어링.md",
+          "target_price": 34100.0,
+          "stated_upside_pct": 33.7255
+        },
+        {
+          "school": "yig",
+          "report_date": "2024-09-13",
+          "source_file": "2025-11-10_주성엔지니어링 (036930, KQ), 주성엔지니어링, 어서 빨리 주성~ (발간일 240913) YIG Research.md",
+          "target_price": 31350.0,
+          "stated_upside_pct": 26.1569
+        },
+        {
+          "school": "voera",
+          "report_date": "2026-05-22",
+          "source_file": "undated_[BUY] ALD의 왕 주성전하 납시오, 주성엔지니어링.md",
+          "target_price": 288820.0,
+          "stated_upside_pct": 28.9375
+        }
+      ]
+    },
+    {
+      "ticker": "044490",
+      "market": "KR",
+      "name": "태웅",
+      "entry_date": "2026-09-23",
+      "exit_date": "2026-10-12",
+      "entry_price": 39050.0,
+      "exit_price": 34700.0,
+      "return_pct": -11.67,
+      "days": 19,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 74 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2023-05-11",
+          "source_file": "2023-05-11_equity-research-태웅-3.md",
+          "target_price": 28600.0,
+          "stated_upside_pct": 103.2694
+        },
+        {
+          "school": "kuvic",
+          "report_date": "2025-06-26",
+          "source_file": "2025-06-26_태웅 - '태'동했던 바람은 '웅'장한 실적으로.md",
+          "target_price": 48000.0,
+          "stated_upside_pct": 30.2578
+        },
+        {
+          "school": "ewha",
+          "report_date": "2026-01-24",
+          "source_file": "2026-01-23_[260123] 태웅(044490).md",
+          "target_price": 45800.0,
+          "stated_upside_pct": 47.504
+        },
+        {
+          "school": "star",
+          "report_date": "2026-09-08",
+          "source_file": "2026-09-08_STAR_태웅.md",
+          "target_price": 36850.0,
+          "stated_upside_pct": 5.7389
+        }
+      ]
+    },
+    {
+      "ticker": "403870",
+      "market": "KR",
+      "name": "HPSP",
+      "entry_date": "2026-09-30",
+      "exit_date": "2026-10-12",
+      "entry_price": 61100.0,
+      "exit_price": 63000.0,
+      "return_pct": 2.49,
+      "days": 12,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 83 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2022-10-13",
+          "source_file": "2022-10-13_equity-research-hpsp.md",
+          "target_price": 19911.913,
+          "stated_upside_pct": 54.9565
+        },
+        {
+          "school": "yig",
+          "report_date": "2025-03-14",
+          "source_file": "2025-11-11_HPSP (403870, KQ), HPSP의 역습이 시작된다 (발간일 250314) YIG Research.md",
+          "target_price": 37760.0,
+          "stated_upside_pct": 35.0984
+        },
+        {
+          "school": "star",
+          "report_date": "2026-03-14",
+          "source_file": "2026-03-14_STAR_HPSP.md",
+          "target_price": 44900.0,
+          "stated_upside_pct": 5.2755
+        }
+      ]
+    },
+    {
+      "ticker": "092870",
+      "market": "KR",
+      "name": "엑시콘",
+      "entry_date": "2026-09-29",
+      "exit_date": "2026-10-12",
+      "entry_price": 46050.0,
+      "exit_price": 57102.0,
+      "return_pct": 23.26,
+      "days": 13,
+      "exit_reason": "q_half_+3R",
+      "entry_reason": "깡토 추세추종: RS 97 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2020-10-10",
+          "source_file": "2020-10-10_equity-research-엑시콘.md",
+          "target_price": 28700.0,
+          "stated_upside_pct": 119.5029
+        },
+        {
+          "school": "star",
+          "report_date": "2025-12-12",
+          "source_file": "2025-12-12_STAR_엑시콘.md",
+          "target_price": 21700.0,
+          "stated_upside_pct": 45.4424
+        }
+      ]
+    },
+    {
+      "ticker": "093370",
+      "market": "KR",
+      "name": "후성",
+      "entry_date": "2026-10-01",
+      "exit_date": "2026-10-13",
+      "entry_price": 14880.0,
+      "exit_price": 13800.0,
+      "return_pct": -7.81,
+      "days": 12,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 63 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "yig",
+          "report_date": "2026-05-11",
+          "source_file": "2026-05-11_후성 (093370, KOSPI), '후'퇴는 없다, '성'장만 남았다 YIG Research.md",
+          "target_price": 20000.0,
+          "stated_upside_pct": 49.1424
+        }
+      ]
+    },
+    {
+      "ticker": "356860",
+      "market": "KR",
+      "name": "티엘비",
+      "entry_date": "2026-09-23",
+      "exit_date": "2026-10-15",
+      "entry_price": 44300.0,
+      "exit_price": 42100.0,
+      "return_pct": -5.54,
+      "days": 22,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 79 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2024-11-07",
+          "source_file": "2024-11-07_equity-research-티엘비.md",
+          "target_price": null,
+          "stated_upside_pct": null
+        },
+        {
+          "school": "ewha",
+          "report_date": "2025-07-25",
+          "source_file": "2025-07-25_[250725] 티엘비(356860).md",
+          "target_price": null,
+          "stated_upside_pct": 38.27
+        }
+      ]
+    },
+    {
+      "ticker": "092870",
+      "market": "KR",
+      "name": "엑시콘",
+      "entry_date": "2026-09-29",
+      "exit_date": "2026-10-15",
+      "entry_price": 46050.0,
+      "exit_price": 46900.0,
+      "return_pct": 1.24,
+      "days": 16,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 97 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2020-10-10",
+          "source_file": "2020-10-10_equity-research-엑시콘.md",
+          "target_price": 28700.0,
+          "stated_upside_pct": 119.5029
+        },
+        {
+          "school": "star",
+          "report_date": "2025-12-12",
+          "source_file": "2025-12-12_STAR_엑시콘.md",
+          "target_price": 21700.0,
+          "stated_upside_pct": 45.4424
+        }
+      ]
+    },
+    {
+      "ticker": "140860",
+      "market": "KR",
+      "name": "파크시스템스",
+      "entry_date": "2026-10-07",
+      "exit_date": "2026-10-15",
+      "entry_price": 301000.0,
+      "exit_price": 268000.0,
+      "return_pct": -11.5,
+      "days": 8,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 71 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2020-05-06",
+          "source_file": "2020-05-06_Equity Research, 파크시스템스.md",
+          "target_price": 55993.0,
+          "stated_upside_pct": 50.3168
+        },
+        {
+          "school": "ewha",
+          "report_date": "2026-02-21",
+          "source_file": "2026-02-20_[260220] 파크시스템스(140860).md",
+          "target_price": null,
+          "stated_upside_pct": 38.29
+        },
+        {
+          "school": "star",
+          "report_date": "2025-03-10",
+          "source_file": "2025-03-10_STAR_파크시스템스.md",
+          "target_price": 303000.0,
+          "stated_upside_pct": 60.4023
+        },
+        {
+          "school": "yig",
+          "report_date": "2025-03-14",
+          "source_file": "2025-11-11_파크시스템스 (140860, KQ), 반도체 테마 PARK, 롤러코스터 타고 올라가요~ (발간일 250314) YIG Res.md",
+          "target_price": 283500.0,
+          "stated_upside_pct": 41.3965
+        }
+      ]
+    },
+    {
+      "ticker": "306200",
+      "market": "KR",
+      "name": "세아제강",
+      "entry_date": "2026-09-11",
+      "exit_date": "2026-10-16",
+      "entry_price": 148200.0,
+      "exit_price": 136000.0,
+      "return_pct": -8.78,
+      "days": 35,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 72 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "voera",
+          "report_date": "2025-05-13",
+          "source_file": "undated_[BUY] 강(鋼)하게 버틴다, 세아제강.md",
+          "target_price": 205630.0,
+          "stated_upside_pct": 19.7612
+        },
+        {
+          "school": "smic",
+          "report_date": "2026-04-16",
+          "source_file": "2026-04-16_equity-research-세아제강.md",
+          "target_price": 286700.0,
+          "stated_upside_pct": 95.034
+        }
+      ]
+    },
+    {
+      "ticker": "112610",
+      "market": "KR",
+      "name": "씨에스윈드",
+      "entry_date": "2026-09-14",
+      "exit_date": "2026-10-16",
+      "entry_price": 52200.0,
+      "exit_price": 50400.0,
+      "return_pct": -4.03,
+      "days": 32,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 79 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "ewha",
+          "report_date": "2023-05-27",
+          "source_file": "2023-05-27_[230527] 씨에스윈드(112610).md",
+          "target_price": 103200.0,
+          "stated_upside_pct": 35.611
+        },
+        {
+          "school": "voera",
+          "report_date": "2021-05-14",
+          "source_file": "undated_[BUY] 씨에스윈드 불어라 바람! 불어라 수주!.md",
+          "target_price": 90900.0,
+          "stated_upside_pct": 31.3584
+        },
+        {
+          "school": "yig",
+          "report_date": "2026-03-31",
+          "source_file": "2026-04-04_씨에스윈드 (112610, KOSPI), 씨에스WINd~ YIG Research.md",
+          "target_price": 88500.0,
+          "stated_upside_pct": 48.4899
+        },
+        {
+          "school": "star",
+          "report_date": "2025-08-31",
+          "source_file": "2025-08-31_STAR_씨에스윈드.md",
+          "target_price": 51700.0,
+          "stated_upside_pct": 23.8323
+        },
+        {
+          "school": "kuvic",
+          "report_date": "2024-10-08",
+          "source_file": "2024-10-08_씨에스윈드 - 해상 풍력, 늦바람 났어♬.md",
+          "target_price": 96684.0,
+          "stated_upside_pct": 45.8281
+        },
+        {
+          "school": "smic",
+          "report_date": "2024-10-17",
+          "source_file": "2024-10-17_equity-research-씨에스윈드.md",
+          "target_price": 134400.0,
+          "stated_upside_pct": 118.1818
+        }
+      ]
+    },
+    {
+      "ticker": "064290",
+      "market": "KR",
+      "name": "인텍플러스",
+      "entry_date": "2026-09-23",
+      "exit_date": "2026-10-16",
+      "entry_price": 56200.0,
+      "exit_price": 52000.0,
+      "return_pct": -8.03,
+      "days": 23,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 96 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2020-05-06",
+          "source_file": "2020-05-06_Equity Research, 인텍플러스.md",
+          "target_price": 12534.0,
+          "stated_upside_pct": 40.5157
+        },
+        {
+          "school": "voera",
+          "report_date": "2026-08-28",
+          "source_file": "undated_[BUY] 사람에 기술을 더하다, 인텍플러스.md",
+          "target_price": 44300.0,
+          "stated_upside_pct": 36.3077
+        }
+      ]
+    },
+    {
+      "ticker": "281820",
+      "market": "KR",
+      "name": "케이씨텍",
+      "entry_date": "2026-10-08",
+      "exit_date": "2026-10-16",
+      "entry_price": 121000.0,
+      "exit_price": 102300.0,
+      "return_pct": -15.96,
+      "days": 8,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 93 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "yig",
+          "report_date": "2023-09-14",
+          "source_file": "2025-11-06_케이씨텍(281820, KS), 슬러리 돈워리! (발간일 230916) YIG Research.md",
+          "target_price": 27580.0,
+          "stated_upside_pct": 21.766
+        },
+        {
+          "school": "star",
+          "report_date": "2026-09-08",
+          "source_file": "2026-09-08_STAR_케이씨텍.md",
+          "target_price": 104000.0,
+          "stated_upside_pct": 54.5319
+        }
+      ]
+    },
+    {
+      "ticker": "131970",
+      "market": "KR",
+      "name": "두산테스나",
+      "entry_date": "2026-10-13",
+      "exit_date": "2026-10-16",
+      "entry_price": 119600.0,
+      "exit_price": 124100.0,
+      "return_pct": 3.14,
+      "days": 3,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 91 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2023-11-12",
+          "source_file": "2023-11-12_equity-research-두산테스나.md",
+          "target_price": 66500.0,
+          "stated_upside_pct": 23.8361
+        },
+        {
+          "school": "yig",
+          "report_date": "2023-09-15",
+          "source_file": "2025-11-06_두산테스나(131970, KQ), 두산테슬라 (발간일 230916) YIG Research.md",
+          "target_price": 71300.0,
+          "stated_upside_pct": 34.5283
+        },
+        {
+          "school": "kuvic",
+          "report_date": "2023-11-20",
+          "source_file": "2023-11-20_두산테스나 - 아! 테스형, OSAT 대장 믿고 있었다.md",
+          "target_price": 101000.0,
+          "stated_upside_pct": 69.1792
+        },
+        {
+          "school": "star",
+          "report_date": "2026-06-13",
+          "source_file": "2026-06-13_STAR_두산테스나.md",
+          "target_price": 235100.0,
+          "stated_upside_pct": 34.3429
+        }
+      ]
+    },
+    {
+      "ticker": "107640",
+      "market": "KR",
+      "name": "한중엔시에스",
+      "entry_date": "2026-10-15",
+      "exit_date": "2026-10-16",
+      "entry_price": 46800.0,
+      "exit_price": 43200.0,
+      "return_pct": -8.25,
+      "days": 1,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 82 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "star",
+          "report_date": "2025-08-31",
+          "source_file": "2025-08-31_STAR_한중엔시에스.md",
+          "target_price": 45950.0,
+          "stated_upside_pct": 36.5527
+        }
+      ]
+    },
+    {
+      "ticker": "054950",
+      "market": "KR",
+      "name": "제이브이엠",
+      "entry_date": "2026-08-11",
+      "exit_date": "2026-10-21",
+      "entry_price": 25000.0,
+      "exit_price": 23000.0,
+      "return_pct": -8.55,
+      "days": 71,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 71 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "star",
+          "report_date": "2022-08-16",
+          "source_file": "2022-08-16_STAR_제이브이엠.md",
+          "target_price": 26320.0,
+          "stated_upside_pct": 23.5681
+        },
+        {
+          "school": "ewha",
+          "report_date": "2026-04-04",
+          "source_file": "2026-04-03_[260403] 제이브이엠(054950).md",
+          "target_price": 36900.0,
+          "stated_upside_pct": 51.8519
+        },
+        {
+          "school": "yig",
+          "report_date": "2025-10-14",
+          "source_file": "2025-11-11_제이브이엠 (054950, KQ), 모르는게 약이라지만 이젠 알아주세요 (발간일 251014) YIG Research.md",
+          "target_price": 41350.0,
+          "stated_upside_pct": 38.9916
+        }
+      ]
+    },
+    {
+      "ticker": "078600",
+      "market": "KR",
+      "name": "대주전자재료",
+      "entry_date": "2026-10-07",
+      "exit_date": "2026-10-21",
+      "entry_price": 111400.0,
+      "exit_price": 108300.0,
+      "return_pct": -3.37,
+      "days": 14,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 79 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "ewha",
+          "report_date": "2026-05-30",
+          "source_file": "2026-05-29_[260529] 대주전자재료(078600).md",
+          "target_price": 231400.0,
+          "stated_upside_pct": 51.143
+        },
+        {
+          "school": "star",
+          "report_date": "2025-08-31",
+          "source_file": "2025-08-31_STAR_대주전자재료.md",
+          "target_price": 116900.0,
+          "stated_upside_pct": 68.6869
+        }
+      ]
+    },
+    {
+      "ticker": "039440",
+      "market": "KR",
+      "name": "에스티아이",
+      "entry_date": "2026-10-14",
+      "exit_date": "2026-10-21",
+      "entry_price": 27750.0,
+      "exit_price": 27600.0,
+      "return_pct": -1.14,
+      "days": 7,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 60 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "ewha",
+          "report_date": "2024-07-25",
+          "source_file": "2024-07-25_[240725] 에스티아이(039440).md",
+          "target_price": 41450.0,
+          "stated_upside_pct": 51.5539
+        },
+        {
+          "school": "star",
+          "report_date": "2025-03-10",
+          "source_file": "2025-03-10_STAR_에스티아이.md",
+          "target_price": 22000.0,
+          "stated_upside_pct": 15.304
+        },
+        {
+          "school": "kuvic",
+          "report_date": "2026-05-18",
+          "source_file": "2026-05-18_에스티아이 - 에브리바디 에스티아이.md",
+          "target_price": 46000.0,
+          "stated_upside_pct": 60.0
+        }
+      ]
+    },
+    {
+      "ticker": "290650",
+      "market": "KR",
+      "name": "엘앤씨바이오",
+      "entry_date": "2026-10-19",
+      "exit_date": "2026-10-21",
+      "entry_price": 69400.0,
+      "exit_price": 63500.0,
+      "return_pct": -9.05,
+      "days": 2,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 66 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "ewha",
+          "report_date": "2025-11-25",
+          "source_file": "2025-11-25_[251125] (KEYSS 대회) 엘앤씨바이오(290650).md",
+          "target_price": 82900.0,
+          "stated_upside_pct": 59.9923
+        },
+        {
+          "school": "voera",
+          "report_date": "2026-08-21",
+          "source_file": "undated_[BUY] 리투오, 리쥬란의 성장곡선을 압축하다! 엘앤씨바이오.md",
+          "target_price": 74700.0,
+          "stated_upside_pct": 51.2329
         }
       ]
     }

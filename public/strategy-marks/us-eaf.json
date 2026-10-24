@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T19:12:12+00:00",
+  "generated_at": "2026-10-24T08:56:52+00:00",
   "strategy_key": "U_chandelier_scaleout",
   "ticker": "EAF",
   "market": "US",
@@ -10,7 +10,7 @@
     {
       "date": "2022-05-26",
       "side": "buy",
-      "price": 85.4492,
+      "price": 85.4491,
       "reason": "학회 매수리포트 발간 → 익일 시가 진입 (KOSPI 파킹 매도 후 전환, 과열 스케일아웃 규칙) (트리거: smic 2022-05-25)"
     },
     {

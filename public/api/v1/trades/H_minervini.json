@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T19:12:11+00:00",
+  "generated_at": "2026-10-24T08:56:52+00:00",
   "strategy_key": "H_minervini",
   "disclaimer": "These are backtested signals for research purposes only. They do NOT constitute investment advice. Past performance does not guarantee future results. All trading decisions and their consequences are solely your responsibility.",
   "disclaimer_ko": "이 데이터는 백테스트 시뮬레이션 결과이며 연구 목적으로만 제공됩니다. 투자 권유가 아닙니다. 과거 성과가 미래 수익을 보장하지 않습니다. 실매매로 인한 모든 손익의 책임은 전적으로 사용자에게 있습니다.",
@@ -289,8 +289,8 @@
       "name": "대림제지",
       "entry_date": "2021-04-16",
       "exit_date": "2021-06-14",
-      "entry_price": 15250.0,
-      "exit_price": 14300.0,
+      "entry_price": 3050.0,
+      "exit_price": 2860.0,
       "return_pct": -6.79,
       "days": 59,
       "exit_reason": "minervini_close<50MA",
@@ -300,8 +300,8 @@
           "school": "smic",
           "report_date": "2021-04-15",
           "source_file": "2021-04-15_equity-research-대림제지-2.md",
-          "target_price": 21500.0,
-          "stated_upside_pct": 42.3841
+          "target_price": 4705.0725,
+          "stated_upside_pct": 55.7971
         }
       ]
     },
@@ -1206,8 +1206,8 @@
       "name": "티앤엘",
       "entry_date": "2024-08-26",
       "exit_date": "2024-09-09",
-      "entry_price": 74200.0,
-      "exit_price": 62500.0,
+      "entry_price": 37552.0,
+      "exit_price": 31631.0,
       "return_pct": -16.27,
       "days": 14,
       "exit_reason": "minervini_close<50MA",
@@ -1218,28 +1218,28 @@
           "report_date": "2023-04-22",
           "source_file": "2023-04-22_STAR_티앤엘.md",
           "target_price": 63300.0,
-          "stated_upside_pct": 38.6637
+          "stated_upside_pct": 173.9904
         },
         {
           "school": "voera",
           "report_date": "2023-05-03",
           "source_file": "undated_[BUY].md",
-          "target_price": 105000.0,
-          "stated_upside_pct": 118.75
+          "target_price": null,
+          "stated_upside_pct": null
         },
         {
           "school": "kuvic",
           "report_date": "2023-11-20",
           "source_file": "2023-11-20_티앤엘 - Mighty Patch is getting Mighter.md",
           "target_price": 59100.0,
-          "stated_upside_pct": 40.38
+          "stated_upside_pct": 177.3867
         },
         {
           "school": "ewha",
           "report_date": "2024-08-23",
           "source_file": "2024-08-23_[240823] 티앤엘(340570).md",
           "target_price": 113900.0,
-          "stated_upside_pct": 53.504
+          "stated_upside_pct": 203.3127
         }
       ]
     },
@@ -2347,8 +2347,8 @@
       "name": "코미코",
       "entry_date": "2025-09-01",
       "exit_date": "2025-11-17",
-      "entry_price": 40439.0,
-      "exit_price": 49963.0,
+      "entry_price": 16205.0,
+      "exit_price": 20021.0,
       "return_pct": 22.81,
       "days": 77,
       "exit_reason": "minervini_close<50MA",
@@ -2358,8 +2358,8 @@
           "school": "star",
           "report_date": "2025-08-31",
           "source_file": "2025-08-31_STAR_코미코.md",
-          "target_price": 87900.0,
-          "stated_upside_pct": 109.1961
+          "target_price": 24463.805,
+          "stated_upside_pct": 45.2893
         }
       ]
     },
@@ -2369,8 +2369,8 @@
       "name": "GLW",
       "entry_date": "2025-10-24",
       "exit_date": "2025-11-17",
-      "entry_price": 86.4103,
-      "exit_price": 81.3333,
+      "entry_price": 86.2479,
+      "exit_price": 81.1804,
       "return_pct": -5.74,
       "days": 24,
       "exit_reason": "minervini_close<50MA",
@@ -2381,7 +2381,7 @@
           "report_date": "2025-10-23",
           "source_file": "2025-10-23_equity-research-corning-3.md",
           "target_price": 144.0,
-          "stated_upside_pct": 68.8989
+          "stated_upside_pct": 69.2169
         }
       ]
     },
@@ -2463,8 +2463,8 @@
       "name": "티엘비",
       "entry_date": "2025-07-28",
       "exit_date": "2025-12-15",
-      "entry_price": 25173.0,
-      "exit_price": 57552.0,
+      "entry_price": 12658.0,
+      "exit_price": 28940.0,
       "return_pct": 127.26,
       "days": 140,
       "exit_reason": "minervini_close<50MA",
@@ -2737,8 +2737,8 @@
       "name": "엘앤씨바이오",
       "entry_date": "2025-11-26",
       "exit_date": "2026-01-19",
-      "entry_price": 54700.0,
-      "exit_price": 54200.0,
+      "entry_price": 52977.0,
+      "exit_price": 52493.0,
       "return_pct": -1.51,
       "days": 54,
       "exit_reason": "minervini_close<50MA",
@@ -2749,7 +2749,7 @@
           "report_date": "2025-11-25",
           "source_file": "2025-11-25_[251125] (KEYSS 대회) 엘앤씨바이오(290650).md",
           "target_price": 82900.0,
-          "stated_upside_pct": 54.9533
+          "stated_upside_pct": 59.9923
         }
       ]
     },
@@ -3378,6 +3378,114 @@
           "source_file": "2026-09-08_STAR_인바디.md",
           "target_price": 91069.0,
           "stated_upside_pct": 55.9401
+        }
+      ]
+    },
+    {
+      "ticker": "119850",
+      "market": "KR",
+      "name": "지엔씨에너지",
+      "entry_date": "2026-09-09",
+      "exit_date": "2026-10-12",
+      "entry_price": 47850.0,
+      "exit_price": 47150.0,
+      "return_pct": -2.05,
+      "days": 33,
+      "exit_reason": "minervini_close<50MA",
+      "entry_reason": "미너비니 트렌드 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주고점 70%↑, RS>KOSPI) → 진입 (트리거: star 2026-09-08, kuvic 2026-08-06, yig 2025-08-01, smic 2025-04-19)",
+      "trigger_reports": [
+        {
+          "school": "star",
+          "report_date": "2026-09-08",
+          "source_file": "2026-09-08_STAR_지엔씨에너지.md",
+          "target_price": 79700.0,
+          "stated_upside_pct": 77.9018
+        },
+        {
+          "school": "smic",
+          "report_date": "2025-04-19",
+          "source_file": "2025-04-19_equity-research-지엔씨에너지.md",
+          "target_price": 39610.0,
+          "stated_upside_pct": 106.3021
+        },
+        {
+          "school": "yig",
+          "report_date": "2025-08-01",
+          "source_file": "2025-11-11_지엔씨에너지 (119850, KQ), 비상발전기로 주가도 비상 (발간일 250801) YIG Research.md",
+          "target_price": null,
+          "stated_upside_pct": null
+        },
+        {
+          "school": "kuvic",
+          "report_date": "2026-08-06",
+          "source_file": "2026-08-06_지엔씨에너지 - 전력 질주하는 DC, 그 뒤엔 전력 질주하는 지엔씨.md",
+          "target_price": 76000.0,
+          "stated_upside_pct": 48.728
+        }
+      ]
+    },
+    {
+      "ticker": "122640",
+      "market": "KR",
+      "name": "예스티",
+      "entry_date": "2026-09-10",
+      "exit_date": "2026-10-19",
+      "entry_price": 31100.0,
+      "exit_price": 25250.0,
+      "return_pct": -19.3,
+      "days": 39,
+      "exit_reason": "minervini_close<50MA",
+      "entry_reason": "미너비니 트렌드 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주고점 70%↑, RS>KOSPI) → 진입 (트리거: star 2026-09-09, smic 2025-12-15)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2025-12-15",
+          "source_file": "2025-12-15_equity-research-예스티-2.md",
+          "target_price": 40500.0,
+          "stated_upside_pct": 125.3756
+        },
+        {
+          "school": "star",
+          "report_date": "2026-09-09",
+          "source_file": "2026-09-09_STAR_예스티.md",
+          "target_price": 42800.0,
+          "stated_upside_pct": 36.5231
+        }
+      ]
+    },
+    {
+      "ticker": "222800",
+      "market": "KR",
+      "name": "심텍",
+      "entry_date": "2026-09-09",
+      "exit_date": "2026-10-19",
+      "entry_price": 122700.0,
+      "exit_price": 119900.0,
+      "return_pct": -2.87,
+      "days": 40,
+      "exit_reason": "minervini_close<50MA",
+      "entry_reason": "미너비니 트렌드 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주고점 70%↑, RS>KOSPI) → 진입 (트리거: star 2026-09-08, yig 2025-11-13, ewha 2022-03-12)",
+      "trigger_reports": [
+        {
+          "school": "ewha",
+          "report_date": "2022-03-12",
+          "source_file": "2022-03-12_[220312] 심텍(222800).md",
+          "target_price": 66900.0,
+          "stated_upside_pct": 33.5329
+        },
+        {
+          "school": "yig",
+          "report_date": "2025-11-13",
+          "source_file": "2026-04-08_심텍 (222800, KOSDAQ), 흔들린 숫자, 명확해진 방향 YIG Research.md",
+          "target_price": 84100.0,
+          "stated_upside_pct": 56.903
+        },
+        {
+          "school": "star",
+          "report_date": "2026-09-08",
+          "source_file": "2026-09-08_STAR_심텍.md",
+          "target_price": 206900.0,
+          "stated_upside_pct": 69.8686
         }
       ]
     }

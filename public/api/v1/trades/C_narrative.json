@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T19:12:11+00:00",
+  "generated_at": "2026-10-24T08:56:52+00:00",
   "strategy_key": "C_narrative",
   "disclaimer": "These are backtested signals for research purposes only. They do NOT constitute investment advice. Past performance does not guarantee future results. All trading decisions and their consequences are solely your responsibility.",
   "disclaimer_ko": "이 데이터는 백테스트 시뮬레이션 결과이며 연구 목적으로만 제공됩니다. 투자 권유가 아닙니다. 과거 성과가 미래 수익을 보장하지 않습니다. 실매매로 인한 모든 손익의 책임은 전적으로 사용자에게 있습니다.",
@@ -1007,8 +1007,8 @@
       "name": "아이씨에이치",
       "entry_date": "2022-10-14",
       "exit_date": "2023-04-03",
-      "entry_price": 8306.0,
-      "exit_price": 6177.0,
+      "entry_price": 41530.0,
+      "exit_price": 30885.0,
       "return_pct": -26.08,
       "days": 171,
       "exit_reason": "thesis_break_200MA",
@@ -1018,8 +1018,8 @@
           "school": "smic",
           "report_date": "2022-10-13",
           "source_file": "2022-10-13_equity-research-아이씨에이치.md",
-          "target_price": 31100.0,
-          "stated_upside_pct": 282.017
+          "target_price": null,
+          "stated_upside_pct": null
         }
       ]
     },
@@ -1168,8 +1168,8 @@
       "name": "티앤엘",
       "entry_date": "2023-05-04",
       "exit_date": "2023-10-04",
-      "entry_price": 47700.0,
-      "exit_price": 42350.0,
+      "entry_price": 24140.0,
+      "exit_price": 21433.0,
       "return_pct": -11.75,
       "days": 153,
       "exit_reason": "thesis_break_200MA",
@@ -1180,14 +1180,14 @@
           "report_date": "2023-04-22",
           "source_file": "2023-04-22_STAR_티앤엘.md",
           "target_price": 63300.0,
-          "stated_upside_pct": 38.6637
+          "stated_upside_pct": 173.9904
         },
         {
           "school": "voera",
           "report_date": "2023-05-03",
           "source_file": "undated_[BUY].md",
-          "target_price": 105000.0,
-          "stated_upside_pct": 118.75
+          "target_price": null,
+          "stated_upside_pct": null
         }
       ]
     },
@@ -1553,8 +1553,8 @@
       "name": "알테오젠",
       "entry_date": "2024-08-16",
       "exit_date": "2024-12-02",
-      "entry_price": 294000.0,
-      "exit_price": 283500.0,
+      "entry_price": 226219.0,
+      "exit_price": 218139.0,
       "return_pct": -4.15,
       "days": 108,
       "exit_reason": "thesis_break_200MA",
@@ -1565,7 +1565,7 @@
           "report_date": "2024-05-09",
           "source_file": "2024-05-09_equity-research-알테오젠.md",
           "target_price": 242200.0,
-          "stated_upside_pct": 42.5544
+          "stated_upside_pct": 85.2688
         },
         {
           "school": "kuvic",
