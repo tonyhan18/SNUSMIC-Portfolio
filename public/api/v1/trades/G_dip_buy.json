@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-24T08:56:52+00:00",
+  "generated_at": "2026-10-26T10:12:02+00:00",
   "strategy_key": "G_dip_buy",
   "disclaimer": "These are backtested signals for research purposes only. They do NOT constitute investment advice. Past performance does not guarantee future results. All trading decisions and their consequences are solely your responsibility.",
   "disclaimer_ko": "이 데이터는 백테스트 시뮬레이션 결과이며 연구 목적으로만 제공됩니다. 투자 권유가 아닙니다. 과거 성과가 미래 수익을 보장하지 않습니다. 실매매로 인한 모든 손익의 책임은 전적으로 사용자에게 있습니다.",
@@ -22818,6 +22818,35 @@
           "source_file": "2026-06-13_STAR_두산테스나.md",
           "target_price": 235100.0,
           "stated_upside_pct": 34.3429
+        }
+      ]
+    },
+    {
+      "ticker": "078600",
+      "market": "KR",
+      "name": "대주전자재료",
+      "entry_date": "2026-10-13",
+      "exit_date": "2026-10-26",
+      "entry_price": 104000.0,
+      "exit_price": 93300.0,
+      "return_pct": -10.83,
+      "days": 13,
+      "exit_reason": "dip_atr3_stop",
+      "entry_reason": "발간일(2026-05-30) 종가 대비 −20% 하락 도달 → 익일 시가 진입 (딥바이)",
+      "trigger_reports": [
+        {
+          "school": "ewha",
+          "report_date": "2026-05-30",
+          "source_file": "2026-05-29_[260529] 대주전자재료(078600).md",
+          "target_price": 231400.0,
+          "stated_upside_pct": 51.143
+        },
+        {
+          "school": "star",
+          "report_date": "2025-08-31",
+          "source_file": "2025-08-31_STAR_대주전자재료.md",
+          "target_price": 116900.0,
+          "stated_upside_pct": 68.6869
         }
       ]
     }
