@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-26T10:12:02+00:00",
+  "generated_at": "2026-10-27T10:01:23+00:00",
   "strategy_key": "I_supertrend",
   "disclaimer": "These are backtested signals for research purposes only. They do NOT constitute investment advice. Past performance does not guarantee future results. All trading decisions and their consequences are solely your responsibility.",
   "disclaimer_ko": "이 데이터는 백테스트 시뮬레이션 결과이며 연구 목적으로만 제공됩니다. 투자 권유가 아닙니다. 과거 성과가 미래 수익을 보장하지 않습니다. 실매매로 인한 모든 손익의 책임은 전적으로 사용자에게 있습니다.",
@@ -10645,28 +10645,6 @@
       ]
     },
     {
-      "ticker": "000150",
-      "market": "KR",
-      "name": "두산",
-      "entry_date": "2025-09-09",
-      "exit_date": "2025-09-29",
-      "entry_price": 597000.0,
-      "exit_price": 555000.0,
-      "return_pct": -7.59,
-      "days": 20,
-      "exit_reason": "supertrend_bearish_flip",
-      "entry_reason": "리포트 발간 후 3개월 내 슈퍼트렌드(10,3) 상방 전환 → 익일 시가 진입 (트리거: kuvic 2025-08-19)",
-      "trigger_reports": [
-        {
-          "school": "kuvic",
-          "report_date": "2025-08-19",
-          "source_file": "2025-08-19_두산 - GPU와 ASIC이라는 '두 산'.md",
-          "target_price": null,
-          "stated_upside_pct": 68.9
-        }
-      ]
-    },
-    {
       "ticker": "051360",
       "market": "KR",
       "name": "토비스",
@@ -10858,6 +10836,28 @@
           "source_file": "2025-11-11_지니언스 (263860, KQ), K-보안 데몬 헌터스 (발간일 250718) YIG Research.md",
           "target_price": 32500.0,
           "stated_upside_pct": 48.0638
+        }
+      ]
+    },
+    {
+      "ticker": "347850",
+      "market": "KR",
+      "name": "디앤디파마텍",
+      "entry_date": "2025-09-01",
+      "exit_date": "2025-10-20",
+      "entry_price": 39164.0,
+      "exit_price": 40790.0,
+      "return_pct": 3.53,
+      "days": 49,
+      "exit_reason": "supertrend_bearish_flip",
+      "entry_reason": "리포트 발간 후 3개월 내 슈퍼트렌드(10,3) 상방 전환 → 익일 시가 진입 (트리거: kuvic 2025-08-19)",
+      "trigger_reports": [
+        {
+          "school": "kuvic",
+          "report_date": "2025-08-19",
+          "source_file": "2025-08-19_디앤디파마텍 - 간단히 말해, 비만도 MASH도 한 큐에.md",
+          "target_price": null,
+          "stated_upside_pct": 46.0
         }
       ]
     },
@@ -11915,8 +11915,15 @@
       "return_pct": -15.6,
       "days": 18,
       "exit_reason": "supertrend_bearish_flip",
-      "entry_reason": "리포트 발간 후 3개월 내 슈퍼트렌드(10,3) 상방 전환 → 익일 시가 진입 (트리거: star 2025-12-12)",
+      "entry_reason": "리포트 발간 후 3개월 내 슈퍼트렌드(10,3) 상방 전환 → 익일 시가 진입 (트리거: star 2025-12-12, kuvic 2024-11-11)",
       "trigger_reports": [
+        {
+          "school": "kuvic",
+          "report_date": "2024-11-11",
+          "source_file": "2024-11-11_유진테크 - 반도체가 여름이래'유~진'짜라니께.md",
+          "target_price": null,
+          "stated_upside_pct": null
+        },
         {
           "school": "star",
           "report_date": "2025-12-12",
@@ -14419,6 +14426,64 @@
           "source_file": "2025-06-27_SAMG엔터 - 나만 믿어핑!.md",
           "target_price": null,
           "stated_upside_pct": null
+        }
+      ]
+    },
+    {
+      "ticker": "031980",
+      "market": "KR",
+      "name": "피에스케이홀딩스",
+      "entry_date": "2026-10-02",
+      "exit_date": "2026-10-27",
+      "entry_price": 194000.0,
+      "exit_price": 165000.0,
+      "return_pct": -15.46,
+      "days": 25,
+      "exit_reason": "supertrend_bearish_flip",
+      "entry_reason": "리포트 발간 시점 슈퍼트렌드(10,3) 상방 → 익일 시가 진입 (트리거: kuvic 2026-10-01, star 2026-05-02)",
+      "trigger_reports": [
+        {
+          "school": "star",
+          "report_date": "2026-05-02",
+          "source_file": "2026-05-02_STAR_피에스케이홀딩스.md",
+          "target_price": 155200.0,
+          "stated_upside_pct": 24.8592
+        },
+        {
+          "school": "kuvic",
+          "report_date": "2026-10-01",
+          "source_file": "2026-10-01_피에스케이홀딩스 - 성장이 다시 흐른다(Re-flow)~~.md",
+          "target_price": 280000.0,
+          "stated_upside_pct": 44.3299
+        }
+      ]
+    },
+    {
+      "ticker": "290650",
+      "market": "KR",
+      "name": "엘앤씨바이오",
+      "entry_date": "2026-08-24",
+      "exit_date": "2026-10-27",
+      "entry_price": 49781.0,
+      "exit_price": 24500.0,
+      "return_pct": -51.08,
+      "days": 64,
+      "exit_reason": "supertrend_bearish_flip",
+      "entry_reason": "리포트 발간 시점 슈퍼트렌드(10,3) 상방 → 익일 시가 진입 (트리거: voera 2026-08-21, ewha 2025-11-25)",
+      "trigger_reports": [
+        {
+          "school": "ewha",
+          "report_date": "2025-11-25",
+          "source_file": "2025-11-25_[251125] (KEYSS 대회) 엘앤씨바이오(290650).md",
+          "target_price": 82900.0,
+          "stated_upside_pct": 59.9923
+        },
+        {
+          "school": "voera",
+          "report_date": "2026-08-21",
+          "source_file": "undated_[BUY] 리투오, 리쥬란의 성장곡선을 압축하다! 엘앤씨바이오.md",
+          "target_price": 74700.0,
+          "stated_upside_pct": 51.2329
         }
       ]
     }
