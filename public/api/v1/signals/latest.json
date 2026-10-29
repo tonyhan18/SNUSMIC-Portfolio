@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-10-28",
-  "generated_at": "2026-10-28T10:08:42+00:00",
+  "as_of": "2026-10-29",
+  "generated_at": "2026-10-29T10:07:50+00:00",
   "headline_strategy": "U_chandelier_scaleout",
   "disclaimer": "These are backtested signals for research purposes only. They do NOT constitute investment advice. Past performance does not guarantee future results. All trading decisions and their consequences are solely your responsibility.",
   "disclaimer_ko": "이 데이터는 백테스트 시뮬레이션 결과이며 연구 목적으로만 제공됩니다. 투자 권유가 아닙니다. 과거 성과가 미래 수익을 보장하지 않습니다. 실매매로 인한 모든 손익의 책임은 전적으로 사용자에게 있습니다.",
@@ -25,10 +25,10 @@
       "name": "금화피에스시",
       "entry_date": "2026-06-11",
       "entry_price": 32700.0,
-      "current_price": 31050.0,
+      "current_price": 30200.0,
       "stop_level": 30350,
-      "unrealized_pct": -5.05,
-      "days_held": 139,
+      "unrealized_pct": -7.65,
+      "days_held": 140,
       "entry_reason": "학회 매수리포트 발간 → 익일 시가 진입 (KOSPI 파킹 매도 후 전환, 과열 스케일아웃 규칙) (트리거: smic 2026-06-10)",
       "trigger_reports": [
         {
@@ -45,10 +45,10 @@
       "name": "MSFT",
       "entry_date": "2026-10-12",
       "entry_price": 537.53,
-      "current_price": 531.33,
+      "current_price": 531.01,
       "stop_level": 497.58,
-      "unrealized_pct": -1.15,
-      "days_held": 16,
+      "unrealized_pct": -1.21,
+      "days_held": 17,
       "entry_reason": "학회 매수리포트 발간 → 익일 시가 진입 (KOSPI 파킹 매도 후 전환, 과열 스케일아웃 규칙) (트리거: kuvic 2026-10-09)",
       "trigger_reports": [
         {
@@ -65,10 +65,10 @@
       "name": "코웨이",
       "entry_date": "2026-03-26",
       "entry_price": 74100.0,
-      "current_price": 101300.0,
+      "current_price": 102600.0,
       "stop_level": 92100,
-      "unrealized_pct": 36.71,
-      "days_held": 216,
+      "unrealized_pct": 38.46,
+      "days_held": 217,
       "entry_reason": "학회 매수리포트 발간 → 익일 시가 진입 (KOSPI 파킹 매도 후 전환, 과열 스케일아웃 규칙) (트리거: star 2026-03-25)",
       "trigger_reports": [
         {
@@ -91,10 +91,10 @@
       "name": "상신이디피",
       "entry_date": "2026-08-24",
       "entry_price": 17060.0,
-      "current_price": 27000.0,
+      "current_price": 26000.0,
       "stop_level": 19290,
-      "unrealized_pct": 58.26,
-      "days_held": 65,
+      "unrealized_pct": 52.4,
+      "days_held": 66,
       "entry_reason": "학회 매수리포트 발간 → 익일 시가 진입 (KOSPI 파킹 매도 후 전환, 과열 스케일아웃 규칙) (트리거: ewha 2026-08-22)",
       "trigger_reports": [
         {
@@ -112,9 +112,9 @@
       "ticker": "036190",
       "market": "KR",
       "name": "금화피에스시",
-      "reason": "approaching_stop",
+      "reason": "stop_hit",
       "stop_level": 30350,
-      "dist_to_stop_pct": 2.25
+      "dist_to_stop_pct": -0.5
     }
   ],
   "counts": {
