@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-29T10:07:50+00:00",
+  "generated_at": "2026-10-30T10:09:20+00:00",
   "strategy_key": "G_dip_buy",
   "disclaimer": "These are backtested signals for research purposes only. They do NOT constitute investment advice. Past performance does not guarantee future results. All trading decisions and their consequences are solely your responsibility.",
   "disclaimer_ko": "이 데이터는 백테스트 시뮬레이션 결과이며 연구 목적으로만 제공됩니다. 투자 권유가 아닙니다. 과거 성과가 미래 수익을 보장하지 않습니다. 실매매로 인한 모든 손익의 책임은 전적으로 사용자에게 있습니다.",
@@ -22976,6 +22976,35 @@
           "source_file": "2025-11-10_에스티팜 (237690, KQ), 에스티팜 한 번 '올리고' 볼까 (발간일 241107) YIG Research.md",
           "target_price": 160000.0,
           "stated_upside_pct": 69.8514
+        }
+      ]
+    },
+    {
+      "ticker": "012450",
+      "market": "KR",
+      "name": "한화에어로스페이스",
+      "entry_date": "2026-10-16",
+      "exit_date": "2026-10-30",
+      "entry_price": 841000.0,
+      "exit_price": 717000.0,
+      "return_pct": -15.26,
+      "days": 14,
+      "exit_reason": "dip_atr3_stop",
+      "entry_reason": "발간일(2026-05-23) 종가 대비 −20% 하락 도달 → 익일 시가 진입 (딥바이)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2025-04-19",
+          "source_file": "2025-04-19_equity-research-한화에어로스페이스.md",
+          "target_price": 1205000.0,
+          "stated_upside_pct": 47.7918
+        },
+        {
+          "school": "voera",
+          "report_date": "2026-05-23",
+          "source_file": "undated_[BUY] 주가는 Eagles가 상승기류 타듯, 한화에어로스페이스.md",
+          "target_price": 1435000.0,
+          "stated_upside_pct": 13.7986
         }
       ]
     }

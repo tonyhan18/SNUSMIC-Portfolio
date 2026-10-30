@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-29T10:07:50+00:00",
+  "generated_at": "2026-10-30T10:09:20+00:00",
   "strategy_key": "T-_kospi_core_regime",
   "disclaimer": "These are backtested signals for research purposes only. They do NOT constitute investment advice. Past performance does not guarantee future results. All trading decisions and their consequences are solely your responsibility.",
   "disclaimer_ko": "이 데이터는 백테스트 시뮬레이션 결과이며 연구 목적으로만 제공됩니다. 투자 권유가 아닙니다. 과거 성과가 미래 수익을 보장하지 않습니다. 실매매로 인한 모든 손익의 책임은 전적으로 사용자에게 있습니다.",
@@ -6510,6 +6510,28 @@
           "source_file": "undated_[BUY] 리투오, 리쥬란의 성장곡선을 압축하다! 엘앤씨바이오.md",
           "target_price": 74700.0,
           "stated_upside_pct": 51.2329
+        }
+      ]
+    },
+    {
+      "ticker": "036190",
+      "market": "KR",
+      "name": "금화피에스시",
+      "entry_date": "2026-06-11",
+      "exit_date": "2026-10-30",
+      "entry_price": 32700.0,
+      "exit_price": 30200.0,
+      "return_pct": -8.24,
+      "days": 141,
+      "exit_reason": "t_chandelier_ATR4.25",
+      "entry_reason": "학회 매수리포트 발간 → 익일 시가 진입 (KOSPI 파킹 매도 후 전환) (트리거: smic 2026-06-10)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2026-06-10",
+          "source_file": "2026-06-10_Equity Research, 금화피에스시.md",
+          "target_price": 36700.0,
+          "stated_upside_pct": 12.2324
         }
       ]
     }

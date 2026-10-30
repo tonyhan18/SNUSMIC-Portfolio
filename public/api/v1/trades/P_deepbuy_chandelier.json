@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-29T10:07:50+00:00",
+  "generated_at": "2026-10-30T10:09:20+00:00",
   "strategy_key": "P_deepbuy_chandelier",
   "disclaimer": "These are backtested signals for research purposes only. They do NOT constitute investment advice. Past performance does not guarantee future results. All trading decisions and their consequences are solely your responsibility.",
   "disclaimer_ko": "이 데이터는 백테스트 시뮬레이션 결과이며 연구 목적으로만 제공됩니다. 투자 권유가 아닙니다. 과거 성과가 미래 수익을 보장하지 않습니다. 실매매로 인한 모든 손익의 책임은 전적으로 사용자에게 있습니다.",
@@ -8602,6 +8602,92 @@
           "source_file": "2025-11-17_인카금융서비스 - 내 성장이 멈추지 않는 탓일까 ㅜ.ㅜ.md",
           "target_price": 36700.0,
           "stated_upside_pct": 143.0464
+        }
+      ]
+    },
+    {
+      "ticker": "213420",
+      "market": "KR",
+      "name": "덕산네오룩스",
+      "entry_date": "2026-09-23",
+      "exit_date": "2026-10-30",
+      "entry_price": 27466.0374,
+      "exit_price": 23500.0,
+      "return_pct": -14.95,
+      "days": 37,
+      "exit_reason": "p_chandelier_ATR4.25",
+      "entry_reason": "발간일(2026-05-06) 종가 대비 −20% 하락 도달 → 익일 시가 진입 (딥바이; 추가 −10% 시 1회 스케일인)",
+      "trigger_reports": [
+        {
+          "school": "ewha",
+          "report_date": "2024-04-06",
+          "source_file": "2024-04-06_[240406] 덕산네오룩스(213420).md",
+          "target_price": 53200.0,
+          "stated_upside_pct": 37.1134
+        },
+        {
+          "school": "star",
+          "report_date": "2025-03-10",
+          "source_file": "2025-03-10_STAR_덕산네오룩스.md",
+          "target_price": 48200.0,
+          "stated_upside_pct": 51.3344
+        },
+        {
+          "school": "yig",
+          "report_date": "2024-06-02",
+          "source_file": "2025-11-10_덕산네오룩스 (213420, KQ), 떡상, 네오룩스 (발간일 240524) YIG Research.md",
+          "target_price": 58500.0,
+          "stated_upside_pct": 29.2818
+        },
+        {
+          "school": "smic",
+          "report_date": "2026-05-07",
+          "source_file": "2026-05-07_equity-research-덕산네오룩스.md",
+          "target_price": 91200.0,
+          "stated_upside_pct": 76.4023
+        }
+      ]
+    },
+    {
+      "ticker": "237690",
+      "market": "KR",
+      "name": "에스티팜",
+      "entry_date": "2026-10-16",
+      "exit_date": "2026-10-30",
+      "entry_price": 83900.0,
+      "exit_price": 73100.0,
+      "return_pct": -13.39,
+      "days": 14,
+      "exit_reason": "p_chandelier_ATR4.25",
+      "entry_reason": "발간일(2026-05-04) 종가 대비 −20% 하락 도달 → 익일 시가 진입 (딥바이; 추가 −10% 시 1회 스케일인)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2024-04-17",
+          "source_file": "2024-04-17_equity-research-에스티팜-3.md",
+          "target_price": 114301.0,
+          "stated_upside_pct": 41.2868
+        },
+        {
+          "school": "star",
+          "report_date": "2026-05-04",
+          "source_file": "2026-05-04_STAR_에스티팜.md",
+          "target_price": 224800.0,
+          "stated_upside_pct": 46.1638
+        },
+        {
+          "school": "ewha",
+          "report_date": "2025-08-22",
+          "source_file": "2025-08-22_[250822] 에스티팜(237690).md",
+          "target_price": 133700.0,
+          "stated_upside_pct": 45.3261
+        },
+        {
+          "school": "yig",
+          "report_date": "2024-11-07",
+          "source_file": "2025-11-10_에스티팜 (237690, KQ), 에스티팜 한 번 '올리고' 볼까 (발간일 241107) YIG Research.md",
+          "target_price": 160000.0,
+          "stated_upside_pct": 69.8514
         }
       ]
     }
